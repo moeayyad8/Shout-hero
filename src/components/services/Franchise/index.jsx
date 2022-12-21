@@ -7,8 +7,8 @@ import NewsLetter from '../../homes/home-4/news-letter';
 import Trustbar from '../../trustbar';
 
 const title = <>Super Powered <br/>Franchise Marketing</>
-const subtitle='Advantages'
-const objectives='Objectives'
+const subtitle="Advantages"
+const objectives="Objectives"
 
 
 

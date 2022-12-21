@@ -2,13 +2,12 @@ import React, { useEffect } from 'react';
 import { FooterThree, HeaderTwo, Wrapper } from '../../../layout';
 import { animationCreate } from '../../../utils/utils';
 
-const title = 'The #1 Amazon Review Agency'
-const subtitle='Deliverables'
-const objectives = 'Objectives'
-const why ='Why what we do Works'
-const how ='How to get started'
-const split ='split tested offer'
-
+const title = "The #1 Amazon Review Agency"
+const subtitle="Deliverables"
+const objectives = "Objectives"
+const why ="Why what we do Works"
+const how ="How to get started"
+const split ="split tested offer"
 
 const Discord = () => {
 
