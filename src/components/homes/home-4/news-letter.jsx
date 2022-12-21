@@ -2,8 +2,8 @@ import React from 'react';
 
 const news_letter_contents = {
   bg_img: '/assets/img/news/news-bg.jpg',
-  subtitle: 'Get every update',
-  title: 'Subscribe newslater get latest updates and deals',
+  subtitle: 'How to get started',
+  title: 'Get in contact via Email',
   btn_text: 'Subscribe',
   img: '/assets/img/news/news-3.png',
 }
@@ -29,6 +29,8 @@ const NewsLetter = () => {
                     className="fal fa-long-arrow-right"></i></button>
                 </form>
               </div>
+              <h2> add the phone schedule</h2>
+
             </div>
           </div>
           <div className="col-xl-5 col-lg-5 col-md-12">

@@ -4,7 +4,7 @@ import React from 'react';
 
 
 const SingleServiceFour = ({ service, index, m }) => {
-  const { delay, duration,id,img, text_1, title, color, perk_1, perk_2, perk_3, tag_1, tag_2, tag_3, tag_color1, tag_color2, tag_color3} = service || {};
+  const { delay, duration,id,img, text_1, title, color, perk_1, perk_2, perk_3, tag_1, tag_2, tag_3, tag_color1, tag_color2, tag_color3, link} = service || {};
   return (
     <div className="col-xl-4 col-md-6">
 
@@ -34,8 +34,8 @@ const SingleServiceFour = ({ service, index, m }) => {
           <p className="tp-subtitle bullet-list wow tpfadeUp">{perk_3}</p>
        
           
-          <Link href="/about-me">
-            <a className="tp-btn-sm-sky">add var</a>
+          <Link href={'/' + link} >
+            <a className="tp-btn-sm-sky">Learn More</a>
           </Link>
         </div>
       </div>

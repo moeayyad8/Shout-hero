@@ -97,6 +97,7 @@ const services_data = [
     tag_color1:"tp-sv-tag",
     tag_2:"Traffic",
     tag_color2:"tp-sv-tag-green",
+    link:'/clips',
 
   },
   {
@@ -116,13 +117,14 @@ const services_data = [
     tag_color1:"tp-sv-tag",
     tag_2:"Traffic",
     tag_color2:"tp-sv-tag-green",
+    link:'/web-design',
   },
   {
     id:10,
     duration:'1s',
     delay:'.7s',
     img:'/assets/img/hero/hero-4.png',
-    title:'Business Launch',
+    title:'Local Business Launch',
     color:'service-color-3',
     text_1:'Garnering public attention and interest is crucial for a brand new business. We offer a comprehensive solution for local businesses looking to launch online. ',
     home_3:true,
@@ -134,6 +136,7 @@ const services_data = [
     tag_color1:"tp-sv-tag",
     tag_2:"Traffic",
     tag_color2:"tp-sv-tag-green",
+    link:'/local-launch',
   },
   // home four
   {
@@ -153,6 +156,7 @@ const services_data = [
     tag_color1:"tp-sv-tag",
     tag_2:"Traffic",
     tag_color2:"tp-sv-tag-green",
+    link:'/discord',
     
   },
   {
@@ -172,6 +176,7 @@ const services_data = [
     tag_color1:"tp-sv-tag",
     tag_2:"Traffic",
     tag_color2:"tp-sv-tag-green",
+    link:'/clips',
   },
   {
     id:13,
@@ -190,6 +195,7 @@ const services_data = [
     tag_color1:"tp-sv-tag",
     tag_2:"Traffic",
     tag_color2:"tp-sv-tag-green",
+    link:'/research',
   },
   {
     id:14,
@@ -208,6 +214,7 @@ const services_data = [
     tag_color1:"tp-sv-tag",
     tag_2:"Traffic",
     tag_color2:"tp-sv-tag-green",
+    link:'/ugc',
   },
   {
     id:15,
@@ -226,6 +233,7 @@ const services_data = [
     tag_color1:"tp-sv-tag",
     tag_2:"Traffic",
     tag_color2:"tp-sv-tag-green",
+    link:'/influencer',
   },
   {
     id:16,
@@ -262,6 +270,7 @@ const services_data = [
     tag_color1:"tp-sv-tag",
     tag_2:"Traffic",
     tag_color2:"tp-sv-tag-green",
+    link:'/amazon',
   },
   // add service item 
   {
@@ -280,6 +289,7 @@ const services_data = [
     tag_color1:"tp-sv-tag",
     tag_2:"Traffic",
     tag_color2:"tp-sv-tag-green",
+    link:'/social',
   },
   // home five
   {
@@ -297,6 +307,7 @@ const services_data = [
     tag_color1:"tp-sv-tag",
     tag_2:"Traffic",
     tag_color2:"tp-sv-tag-green",
+    link:'/paid-ads',
   },
 
 ]

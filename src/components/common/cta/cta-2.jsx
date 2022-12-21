@@ -17,12 +17,10 @@ const CtaTwo = () => {
                 <p className="text-white"> With an audience at local levels around the country, we can help you create a huge audience</p>
               </div>
               <div className="tp-news-button wow tpfadeUp" data-wow-duration=".7s" data-wow-delay="1s">
-                <Link href="/contact">
+                <Link href="/franchise">
                   <a className="tp-btn-lg-yellow mr-20">Franchisor Solutions</a>
                 </Link>
-                <Link href="/about-me">
-                  <a className="tp-btn-sky">Press Office</a>
-                </Link>
+  
               </div>
             </div>
           </div>

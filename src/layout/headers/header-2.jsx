@@ -9,7 +9,7 @@ const HeaderTwo = () => {
   return (
     <React.Fragment>
       <header className="d-none d-lg-block">
-        <div id="header-sticky" className={`tp-header-area-two header-transparent header-space-three pl-115 pr-115
+        <div id="header-sticky" className={`tp-header-area-two blue-bg header-space-three pl-115 pr-115
          ${headerSticky ? 'header-sticky' : ''}`}>
           <div className="container-fluid">
             <div className="row align-items-center header-space-two">
@@ -17,7 +17,7 @@ const HeaderTwo = () => {
                 <div className="tp-logo text-start">
                   <Link href="/">
                     <a>
-                      <img src="/assets/img/logo/logo-blue.png" alt="" />
+                      <img src="/assets/img/logo/shouthero.png" alt="" />
                     </a>
                   </Link>
                 </div>

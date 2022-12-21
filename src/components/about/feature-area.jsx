@@ -20,9 +20,9 @@ function FeatureItem({ title, subtitle, color }) {
 }
 
 const contents = {
-  title: 'Creating world class experiences',
-  sm_desc_1: "Collax builds digital products that let people do things differently. Share your challenge with our team, and we’ll work with you to deliver a revolutionary digital product. Our clients have changed the way people do banking, listen to music.",
-  sm_desc_2: "learn languages, and rent bikes. Their products have been featured in TechCrunch, Business Insider, and Product Hunt"
+  title: 'World class marketing available to everyone',
+  sm_desc_1: "We're here to save the day with realistic strategies tested on real business owners. Our low maitnence, high impact social media marketing is the perfect solution for small business owners.",
+  sm_desc_2: ""
 }
 const { title, sm_desc_1, sm_desc_2 } = contents;
 
@@ -46,14 +46,14 @@ const FeatureArea = () => {
           </div>
           <div className="ac-feature-border-top">
             <div className="row">
-              <FeatureItem title={'Project kikoff'}
-                subtitle={'At collax we specialize designing building, shipping...'} />
-              <FeatureItem title={'PIdeation'} color={'2'}
-                subtitle={'At collax we specialize designing building, shipping...'} />
-              <FeatureItem title={'Design Process'} color={'3'}
-                subtitle={'At collax we specialize designing building, shipping...'} />
-              <FeatureItem title={'Development'} color={'4'}
-                subtitle={'At collax we specialize designing building, shipping...'} />
+              <FeatureItem title={'Content Sourcing'}
+                subtitle={'We understand how to secure good content from business owners.'} />
+              <FeatureItem title={'Admin Selection'} color={'2'}
+                subtitle={'We decide the best account admin, or can provide accordingly.'} />
+              <FeatureItem title={'Distribution'} color={'3'}
+                subtitle={'We are masters of deployment, essential to a succesful social media plan.'} />
+              <FeatureItem title={'Data Analysis'} color={'4'}
+                subtitle={'We decide based on data. Fortune telling isnt our super power.'} />
             </div>
           </div>
         </div>
