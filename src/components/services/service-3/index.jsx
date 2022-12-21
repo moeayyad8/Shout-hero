@@ -24,7 +24,7 @@ const ServiceThree = () => {
       <CaseArea padd={'pt-130'} />
       <TestimonialArea style_2={true}/>
       <CtaTwo/>
-      <FooterThree />
+      <FooterThree/>
     </Wrapper>
   );
 };
