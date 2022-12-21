@@ -21,7 +21,7 @@ const PaidAds = () => {
   return (
     <Wrapper>
     <HeaderTwo/>
-    <div className="grey-bg pt-10 pb-10"> 
+    <div className="grey-bg pt-11 pb-10"> 
     <div className="container tp-services-item">
       <div className="row align-items-center">
         <h1 className="tp-title">{title}</h1>
