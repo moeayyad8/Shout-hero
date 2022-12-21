@@ -25,18 +25,7 @@ const LocalLaunch = () => {
       <div className="row align-items-center">
         <h1 className="tp-title">{title}</h1>
         <h2 className="tp-subtitle">{objectives}</h2>
-        <div className="inline">
-
-        <div className="tp-sv-tag-purple text-center" >Brand Awarness</div>
-        <div className="tp-sv-tag-green text-center" >Conversion</div>
-        <div className="tp-sv-tag-yellow text-center" > Something  </div>
-        <div className="tp-sv-tag text-center" > Final Tag </div>
-        </div>
-        <p>We use sponsored Amazon reviews services to help businesses increase the visibility and credibility of their products on the world's largest online marketplace. Our team of experienced super-marketers will work with you to identify the most influential and trustworthy reviewers on Amazon, and then collaborate with them to create authentic and detailed reviews of your products. Our sponsored reviews are designed to boost your product's ratings and sales, and to give your brand the recognition it deserves.</p>
-        <div className="tp-btn-right">
-        <a className="tp-btn"> Schedule a Call </a>
-        </div>
-
+        
       </div>
     </div>
 

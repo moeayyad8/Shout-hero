@@ -29,18 +29,7 @@ const Franchise = () => {
       <div className="row align-items-center">
         <h1 className="tp-title">{title}</h1>
         <h2 className="tp-subtitle">{objectives}</h2>
-        <div className="inline">
-
-        <div className="tp-sv-tag-purple text-center" >Brand Awarness</div>
-        <div className="tp-sv-tag-green text-center" >Conversion</div>
-        <div className="tp-sv-tag-yellow text-center" > Something  </div>
-        <div className="tp-sv-tag text-center" > Final Tag </div>
-     
-        </div>
-        <p>We're here to offer a helping hand to the owners of local franchises everywhere. Whether you are </p>
-        <div className="tp-btn-right">
-        <a className="tp-btn"> Schedule a Call </a>
-        </div>
+        
       </div>
     </div>
     </div>
