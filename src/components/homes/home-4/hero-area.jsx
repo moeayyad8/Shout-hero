@@ -3,6 +3,7 @@ import React from 'react';
 import useModal from '../../../hooks/use-modal';
 import { HighlightTwo } from '../../../svg';
 import VideoModal from '../../common/modals/modal-video';
+import IconCircle from '../home-3/iconcircle';
 
 const hero_contents = {
   shapes: [{ img: 'hero-shape-4' }, { num: '-two', img: 'hero-shape-4.1' }],
@@ -60,7 +61,7 @@ const HeroArea = () => {
             </div>
             <div className="col-xl-6 col-lg-6 wow fadeInRight" data-wow-duration=".7s" data-wow-delay=".9s">
               <div className="tp-hero-right-img-four pt-90">
-                <img src={hero_img} alt="" />
+              <IconCircle/>
               </div>
             </div>
           </div>

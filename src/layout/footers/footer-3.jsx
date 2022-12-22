@@ -5,7 +5,7 @@ import CopyrightArea from './component/copyright-area';
 
 const footer_contents = {
   logo: '/assets/img/logo/shouthero.png',
-  widget_desc: 'A new way to make the payments easy, reliable and 100% secure. claritatem itamconse quat. Exerci tationulla',
+  widget_desc: 'The ultimate marketing source for business owners of all sizes. Give us a Shout.',
   footer_widgets: [
     {
       w_class: 'd-flex justify-content-lg-center',
@@ -18,8 +18,8 @@ const footer_contents = {
       widget_lists: ['Help Center', 'Partners', 'Suggestions', 'Blog', 'Newsletters']
     },
   ],
-  subscribe_title: 'Subscribe Newslatter',
-  subscribe_text: 'Exerci tation ullamcorper suscipit lobortis nisl aliquip ex ea commodo',
+  subscribe_title: 'Subscribe to our Newsletter',
+  subscribe_text: 'Get free monthly marketing tips and tricks delivered to your inbox.',
   copy_right_text: <>© Copyright ©{new Date().getFullYear()} Rosewood Promotions. All Rights Reserved Copyright</>,
   conditions: ['Terms and conditions', 'Privacy policy', 'Login / Signup']
 }

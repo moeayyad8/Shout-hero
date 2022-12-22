@@ -3,14 +3,15 @@ import React from 'react';
 import useModal from '../../../hooks/use-modal';
 import { HighlightTwo } from '../../../svg';
 import VideoModal from '../../common/modals/modal-video';
+import IconCircle from './iconcircle.jsx';
 
 const hero_contents = {
-  title: <>Unique powerful digital marketing solutions</>,
+  title: <>Customers can't hear you? You need Shout Hero! </>,
   text: 'We specialize in digital marketing strategies built to take your business to new heights.',
-  btn_text: 'How it Works',
-  video_title: 'Behind the scenes',
+  btn_text: 'Contact Us',
+  video_title: 'Who we are',
   video_id: 'LJbkLdtEW00',
-  hero_img: '/assets/img/hero/hero-4.png'
+  hero_img: '/assets/img/hero/shoutheroanimated.png'
 }
 const { title, text, btn_text, hero_img, video_id, video_title } = hero_contents;
 
