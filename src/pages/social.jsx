@@ -1,6 +1,6 @@
 import { Wrapper } from "../layout";
 import SEO from "../components/seo";
-import SocialMain from '../components/services/social';
+import SocialMain from "../components/services/social";
 
 export default function index() {
   return (

@@ -4,12 +4,10 @@ import { animationCreate } from '../../../utils/utils';
 import SocialPerks from './social-perks';
 import Trustbar from '../../trustbar';
 import SocialExplain from './social-explain';
-const title = "The #1 Amazon Review Agency"
-const subtitle="Deliverables"
-const objectives = "Objectives"
-const why ="Why what we do Works"
-const how ="How to get started"
-const split ="split tested offer"
+
+const title = 'Personal Account Management'
+const objectives = 'Objectives'
+
 
 const Social = () => {
 
