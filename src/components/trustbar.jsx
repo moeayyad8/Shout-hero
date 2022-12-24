@@ -1,23 +1,14 @@
 import React from 'react';
 const Trustbar = () => {
-  const img = '/assets/img/logo/shoutheroshield.png';
+  const img = '/assets/img/logo/shouthornicon.png';
 
   return (
-    <section className='justify-content'>
-      <div className="margin-bottom-50">
-        <img src={img} alt="" /></div>
-
-          <div className="trustbar">
-          <div className="trustbar-container">
-                <div className="">
-                  <p className="text-white"> Client Satisfaction Guarentee </p>
-                  <p className="text-white"> Shout Hero Quality Guarentee </p>
-                </div>
-          </div>
+    
+    <div className="trustbar">
+      <div className="trustbar-container">
+          <a className="trust-circle"><img classaName="trust-innercircle"src={img}></img></a>
+      </div>
     </div>
-    </section>
-
-
   );
 };
 

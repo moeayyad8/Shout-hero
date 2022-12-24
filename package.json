@@ -13,6 +13,7 @@
   "dependencies": {
     "@popperjs/core": "^2.11.6",
     "@reduxjs/toolkit": "^1.8.5",
+    "@sendgrid/mail": "^7.7.0",
     "bootstrap": "^5.2.1",
     "firebase": "^9.15.0",
     "firebase-admin": "^11.4.0",

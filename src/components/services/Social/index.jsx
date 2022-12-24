@@ -1,7 +1,9 @@
 import React, { useEffect } from 'react';
 import { FooterThree, HeaderTwo, Wrapper } from '../../../layout';
 import { animationCreate } from '../../../utils/utils';
-
+import SocialPerks from './social-perks';
+import Trustbar from '../../trustbar';
+import SocialExplain from './social-explain';
 const title = "The #1 Amazon Review Agency"
 const subtitle="Deliverables"
 const objectives = "Objectives"
@@ -32,11 +34,14 @@ const Social = () => {
 
     
     </div>
-    <h2>{subtitle}</h2>
+    <Trustbar/>
+   <SocialPerks/>
+   <SocialExplain/>
     <h2>{objectives}</h2>
     <h3>{why}</h3>
     <h3>{how}</h3>
     <h3>{split}</h3>
+    
     <FooterThree/>
   </Wrapper>
   );

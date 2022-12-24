@@ -6,7 +6,7 @@ import VideoModal from '../../common/modals/modal-video';
 import IconCircle from './iconcircle.jsx';
 
 const hero_contents = {
-  title: "Customers can't hear you? You need Shout Hero",
+  title: "Customers can't hear you? You need a Shout Hero!",
   text: 'We specialize in digital marketing strategies built to take your business to new heights.',
   btn_text: 'Contact Us',
   video_title: 'Who we are',
@@ -38,11 +38,13 @@ const HeroArea = () => {
                       <a className="tp-btn-yellow-semilar mr-55">{btn_text}</a>
                     </Link>
                   </div>
-                  <div className="tp-hero-paly-button z-index-1">
+                 {/*
+                 VIDEO MODAL PLAY BUTTON
+                 <div className="tp-hero-paly-button z-index-1">
                     <button onClick={() => setIsVideoOpen(true)} className="popup-video">
                       <i className="far fa-play"></i></button>
                     <span>{video_title}</span>
-                  </div>
+                  </div>*/}
                 </div>
               </div>
             </div>
