@@ -1,8 +1,8 @@
-import { Wrapper } from "../layout";
-import SEO from "../components/seo";
-import SocialMain from "../components/services/social";
+import { Wrapper } from '../layout';
+import SEO from '../components/seo';
+import SocialMain from '../components/services/social';
 
-export default function index() {
+const index = () => {
   return (
     <Wrapper>
       <SEO pageTitle={'Job'} />
@@ -10,3 +10,5 @@ export default function index() {
     </Wrapper>
   )
 }
+
+export default index;
