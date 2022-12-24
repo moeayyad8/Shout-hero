@@ -35,11 +35,6 @@ const Social = () => {
     <Trustbar/>
    <SocialPerks/>
    <SocialExplain/>
-    <h2>{objectives}</h2>
-    <h3>{why}</h3>
-    <h3>{how}</h3>
-    <h3>{split}</h3>
-    
     <FooterThree/>
   </Wrapper>
   );
