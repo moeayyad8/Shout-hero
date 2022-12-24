@@ -6,7 +6,6 @@ import ServicesArea from '../../about/services-area';
 import NewsLetter from '../../homes/home-4/news-letter';
 import Trustbar from '../../trustbar';
 import FranchiseForm from '../../forms/franchise-form';
-import ReviewForm from '../../forms/review-form';
 
 const title = <>Super Powered <br/> Franchise Marketing</>
 const subtitle="Advantages"
