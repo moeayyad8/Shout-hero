@@ -8,7 +8,7 @@ const index = () => {
       <SEO pageTitle={'Job'} />
       <SocialMain/>
     </Wrapper>
-  )
-}
+  );
+};
 
 export default index;
