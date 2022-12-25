@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default () => 
+const TIKTOK_PIXEL_3 = () => 
 <React.Fragment>
     <script dangerouslySetInnerHTML={{
         __html: `<script>
@@ -14,3 +14,5 @@ export default () =>
     }}/>
  
 </React.Fragment>
+
+export default TIKTOK_PIXEL_3;

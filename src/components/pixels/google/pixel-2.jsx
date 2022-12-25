@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default () => 
+const GOOGLE_PIXEL_2 = () => 
 <React.Fragment>
     <script dangerouslySetInnerHTML={{
         __html: `<!-- Google tag (gtag.js) -->
@@ -14,3 +14,5 @@ export default () =>
         </script>`
     }}/>
 </React.Fragment>
+
+export default GOOGLE_PIXEL_2;
