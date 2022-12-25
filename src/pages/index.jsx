@@ -10,11 +10,6 @@ export default function index() {
   
   return (
     <Wrapper>
-      
-      <FACEBOOK_PIXEL_1/>
-      <TIKTOK_PIXEL_3/>
-      <GOOGLE_PIXEL_2/>
-     
     <SEO pageTitle={'Home'} />
     <HomeThreeMain />
     <ReviewForm/>
