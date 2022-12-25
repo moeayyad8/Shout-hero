@@ -1,15 +1,15 @@
 import React, { useEffect } from 'react';
 import { FooterThree, HeaderTwo, Wrapper } from '../../../layout';
 import { animationCreate } from '../../../utils/utils';
-import SocialPerks from '../../services/social/social-perks';
+import SocialPerks from '../../services/organicsocial/social-perks';
 import Trustbar from '../../trustbar';
-import SocialExplain from '../../services/social/social-explain';
+import SocialExplain from '../../services/organicsocial/social-explain';
 
 const title = 'Personal Account Management'
 const objectives = 'Objectives'
 
 
-const Social = () => {
+const OrganicSocial = () => {
 
   useEffect(() => {
     setTimeout(() => {
@@ -40,4 +40,4 @@ const Social = () => {
   );
 };
 
-export default Social;
+export default OrganicSocial;

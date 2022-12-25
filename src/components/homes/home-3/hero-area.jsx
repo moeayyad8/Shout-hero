@@ -8,7 +8,7 @@ import IconCircle from './iconcircle.jsx';
 const hero_contents = {
   title: "Customers can't hear you? You need a Shout Hero!",
   text: 'We specialize in digital marketing strategies built to take your business to new heights.',
-  btn_text: 'Contact Us',
+  btn_text: 'Get Started',
   video_title: 'Who we are',
   video_id: 'LJbkLdtEW00',
   hero_img: '/assets/img/hero/shoutheroanimated.png'

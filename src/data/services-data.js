@@ -97,7 +97,7 @@ const services_data = [
     tag_color1:"tp-sv-tag",
     tag_2:"Traffic",
     tag_color2:"tp-sv-tag-green",
-    link:'/clips',
+    link:'/organicsocial',
 
   },
   {
@@ -117,14 +117,14 @@ const services_data = [
     tag_color1:"tp-sv-tag",
     tag_2:"Traffic",
     tag_color2:"tp-sv-tag-green",
-    link:'/web-design',
+    link:'/content',
   },
   {
     id:10,
     duration:'1s',
     delay:'.7s',
     img:'/assets/img/hero/hero-4.png',
-    title:'Local Business Launch',
+    title:<>Local Business <br/> Launch </>,
     color:'service-color-3',
     text_1:'Garnering public attention and interest is crucial for a brand new business. We offer a comprehensive solution for local businesses looking to launch online. ',
     home_3:true,
