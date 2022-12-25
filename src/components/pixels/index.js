@@ -15,4 +15,4 @@ const Pixels = () =>
     </Head>
 </React.Fragment>
 
-export default GOOGLE_PIXEL_2;
+export default Pixels;
