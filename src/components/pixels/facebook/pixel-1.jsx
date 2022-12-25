@@ -1,6 +1,7 @@
 import React from 'react';
 
-const FACEBOOK_PIXEL_1 = () => (
+const FACEBOOK_PIXEL_1 = () => 
+  <>
         <React.Fragment>
         <script dangerouslySetInnerHTML={{
             __html: `!function(f,b,e,v,n,t,s)
@@ -18,6 +19,7 @@ const FACEBOOK_PIXEL_1 = () => (
   <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=711882386933255&ev=PageView&noscript=1"/>`}}/>
 
     </React.Fragment>
-)
+    </>
+
   
   export default FACEBOOK_PIXEL_1;
