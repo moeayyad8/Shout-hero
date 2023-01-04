@@ -11,7 +11,7 @@ const HubspotContactForm = () => {
                 window.hbspt.forms.create({
                     portalId: '23636729',
                     formId: '71478775-48b9-4ebf-9a42-43bbae64dc25',
-                    target: '#hubspotForm'
+                    target: '#hubspotForm',
                 })
             }
         });

@@ -13,7 +13,7 @@ const HomeForm = () => {
               window.hbspt.forms.create({
                   portalId: '23636729',
                   formId: '71078f27-d1a2-493d-8bab-94f77b770ea6',
-                  target: '#hubspotForm'
+                  target: '#hubspotForm',
               })
           }
       });
