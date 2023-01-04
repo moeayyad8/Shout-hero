@@ -11,7 +11,7 @@ const HubspotContactForm = () => {
                 window.hbspt.forms.create({
                     portalId: '23636729',
                     formId: '71478775-48b9-4ebf-9a42-43bbae64dc25',
-                    target: '#hubspotForm',
+                    target: '#hubspotForm'
                 })
             }
         });
@@ -19,6 +19,7 @@ const HubspotContactForm = () => {
 
     return (
         <div>
+
             <p>You'll receive a reply within one business day.</p>
             <div id='hubspotForm'></div>
         </div>

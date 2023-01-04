@@ -13,7 +13,7 @@ const HomeForm = () => {
               window.hbspt.forms.create({
                   portalId: '23636729',
                   formId: '71078f27-d1a2-493d-8bab-94f77b770ea6',
-                  target: '#hubspotForm',
+                  target: '#hubspotForm'
               })
           }
       });
@@ -22,7 +22,10 @@ const HomeForm = () => {
   return (
       <div>
           <div className='top-padding'></div>
-       
+      
+          <h2 className="tp-title-md">Submit a form </h2>
+
+
           <div id='hubspotForm'></div>
           <p>You'll receive a reply within one business day.</p>
       </div>
