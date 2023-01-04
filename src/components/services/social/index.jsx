@@ -51,8 +51,6 @@ const OrganicSocial = () => {
                   </div>
                 </div>
               </div>
-
-
             </div>
           </div>
         </div>
