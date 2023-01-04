@@ -7,9 +7,7 @@ const HubspotContactForm = () => {
         document.body.appendChild(script);
 
         script.addEventListener('load', () => {
-            // @TS-ignore
             if (window.hbspt) {
-                // @TS-ignore
                 window.hbspt.forms.create({
                     portalId: '23636729',
                     formId: '71478775-48b9-4ebf-9a42-43bbae64dc25',
@@ -21,9 +19,9 @@ const HubspotContactForm = () => {
 
     return (
         <div>
-            <h2 className="tp-title-sm-left">  </h2>
+            <h2 className='tp-title-sm-left'>  </h2>
             <p>You'll receive a reply within one business day.</p>
-            <div id="hubspotForm"></div>
+            <div id='hubspotForm'></div>
         </div>
     );
 
