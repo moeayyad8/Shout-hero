@@ -7,12 +7,22 @@ import IconCircle from './iconcircle.jsx';
 
 const hero_contents = {
   title: "Customers can't hear you? You need a Shout Hero!",
-  text: 'We specialize in digital marketing strategies built to take your business to new heights.',
-  btn_text: 'Get Started',
+  text: 'We care about your success, and our team of experts has the accolades to prove it. We are commited to helping you acheive any digital possiblility.',
+  btn_text: 'Services and Pricing',
   video_title: 'Who we are',
   video_id: 'LJbkLdtEW00',
   hero_img: '/assets/img/hero/shoutheroanimated.png'
 }
+
+const search_img = '../../../assets/img/logo/search.png';
+const display_img = '../../../assets/img/logo/display.png';
+const viewcounter = '../../../assets/img/logo/viewcounter.png';
+const analytics = '../../../assets/img/logo/analytics.png';
+const video = '../../../assets/img/logo/video.png';
+const postcounter = '../../../assets/img/logo/postcounter.png'; 
+
+
+
 const { title, text, btn_text, hero_img, video_id, video_title } = hero_contents;
 
 const HeroArea = () => {
@@ -34,10 +44,23 @@ const HeroArea = () => {
                 <p className="wow tpfadeUp" data-wow-duration=".5s" data-wow-delay=".8s">{text}</p>
                 <div className="tp-hero-three-button-box d-flex align-items-center wow tpfadeUp" data-wow-duration=".7s" data-wow-delay="1s">
                   <div className="xs-bottom-space">
-                    <Link href={'/contact'}>
+                    
+                    <Link href={'/plans'}>
                       <a className="tp-btn-yellow-semilar mr-55">{btn_text}</a>
                     </Link>
+                <div className='md-padding'></div>
+                <div className="tp-certif">
+                  <img  src={search_img} alt="Google Search Ads Certified"/>
+                  <img  src={display_img} alt="Google Display Ads Certified"/>
+                  <img  src={viewcounter} alt="500 Million views 2022"/>
+                  <img  src={postcounter} alt="1000+ Posts"/>
+                  <img  src={analytics} alt="Google Analytics Certified"/>
+                  <img  src={video} alt="Google Video Ads Certified"/>
+
+              
+                </div>
                   </div>
+                  
                  {/*
                  VIDEO MODAL PLAY BUTTON
                  <div className="tp-hero-paly-button z-index-1">

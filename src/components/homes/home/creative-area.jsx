@@ -9,19 +9,19 @@ const creative_contents = {
     { img_2: '-2', img: '/assets/img/creative/creative-circle-img.png' },
   ],
   title: <>We deploy our world-class <b>marketing team</b> to you,
-    that can help you strategize, plan, script and showcase your vision in the most efficient way.</>,
+    that can help you strategize, plan, showcase your vision to the world.</>,
   video_id: 'PO_fBTkoznc',
   video_title: 'Play Take a look behind the scenes',
   creative_box: [
-    { id: 1, duration: '.3s', delay: '.6s', icon: 'flaticon-satisfaction', box_title: '100%', 
-    box_text: 'Client Retention' },
+    { id: 1, duration: '.3s', delay: '.6s', icon: 'flaticon-satisfaction', box_title: '1000+', 
+    box_text: 'Social Posts' },
     {
       id: 2, duration: '.5s', delay: '.8s', color: 'tp-creative-blue', icon: 'flaticon-clipboard',
-      box_title: '1200+', box_text: 'Complete Project'
+      box_title: '100+', box_text: 'Complete Projects'
     },
     {
-      id: 3, duration: '.7s', delay: '1s', color: 'tp-creative-pink', icon: 'flaticon-settings',
-      box_title: '500M', box_text: 'Impressions'
+      id: 3, duration: '.7s', delay: '1s', color: 'tp-creative-pink', icon: 'flaticon-statistics',
+      box_title: '1 Billion', box_text: 'Impressions'
     },
   ]
 }
@@ -53,12 +53,7 @@ const CreativeArea = () => {
                   <div className="tp-creative-content mb-110">
                     <h4 className="tp-creative-title">{title}</h4>
                   </div>
-                  <div className="tp-play-button mb-150">
-                    <button className="popup-video" onClick={() => setIsVideoOpen(true)}>
-                      <i className="fal fa-play"></i>
-                    </button>
-                    <span>{video_title}</span>
-                  </div>
+                 
                 </div>
               </div>
             </div>

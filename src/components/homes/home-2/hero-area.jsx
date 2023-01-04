@@ -32,7 +32,7 @@ const HeroArea = () => {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-xl-10">
-              <div className="tp-hero-content-box text-center">
+              <div className="service-hero">
                 <h3 className="tp-hero-title wow tpfadeUp" data-wow-duration=".3s" data-wow-delay=".6s">{title} {' '}
                   <span className="tp-highlight"><Highlight/>
                     <i className="tp-theme-color">{highlightText}</i>
@@ -41,14 +41,7 @@ const HeroArea = () => {
                 <div className="tp-hero-img mt-20 mb-80 wow tpfadeUp" data-wow-duration=".5s" data-wow-delay=".8s"  >
                   <img src={hero_img} alt="" />
                 </div>
-                <div className="tp-hero-social-link wow tpfadeUp" data-wow-duration=".7s" data-wow-delay="1s">
-                  {brands.map((b, i) => (
-                    <a key={i} className="tp-btn-white-brand" href={b.link} target="_blank" rel="noreferrer">
-                      <img className="mr-15" src={`/assets/img/hero/${b.img}.png`} alt="" />
-                      {b.title} <i className="fal fa-long-arrow-right"></i>
-                    </a>
-                  ))}
-                </div>
+            
               </div>
             </div>
           </div>

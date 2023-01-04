@@ -132,3 +132,79 @@
         margin-right: 10px;
  }
 }
+.tp-title-white{
+    font-size: 60px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 40px;
+    @media #{$xl} {
+        font-size:50px;
+    }
+    @media #{$lg} {
+        font-size:42px;
+    }
+    @media #{$md}{
+        font-size: 35px;
+    }
+    @media #{$xs}{
+        font-size: 35px;
+    }
+    @media #{$sm}{
+        font-size: 35px;
+    }
+}
+.tp-title-md{
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--tp-common-black);
+    text-align: center;
+}
+.tp-title-md-blue{
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--tp-theme-2);
+    text-align: center;
+}
+.tp-title-md-left{
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--tp-common-black);
+    
+}.tp-title-sm-left{
+    font-size: 30px;
+    font-weight: 500;
+    color: var(--tp-common-black);
+    
+}
+.tp-title-sm-center{
+    font-size: 30px;
+    font-weight: 900;
+    color: var(--tp-common-black);
+    align-items: center;
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+
+ 
+    
+}
+.md-padding{
+    padding-top: 20px;
+    
+}
+.sm-padding{
+    padding-top: 10px;
+    
+}
+.align-text-center{
+    text-align: center;
+    background-color: var(--tp-theme-2);
+    display: inline-block;
+    color: #fff; // This will set the text color to dark grey
+    font-size: 12px; // This will set the font size to 12 pixels
+    text-align: center; // This will center-align the text in the rectangle
+    border-radius: 20px; // This will give the rectangle rounded corners
+    padding: 0 20px; // This will add 10 pixels of padding to the left and right of the text
+    line-height: 40px; // This will set the height of the rectangle to 40 pixels
+
+}

@@ -26,7 +26,7 @@ const post_comments = [
 ]
 
 const BlogDetailsArea = ({ blog }) => {
-  const { img, author, date, comment, views, title } = blog || {};
+  const { img, author, date, comment, title, real_blogp1, real_blogp2, real_blogp3, real_blogp4,real_blogp5,real_blogp6 } = blog || {};
   return (
     <>
       <div className="postbox__area pt-120 pb-120">
@@ -40,27 +40,30 @@ const BlogDetailsArea = ({ blog }) => {
                     <div className="postbox__meta">
                       <span><a href="#"><i className="fal fa-user-circle"></i>{author}</a></span>
                       <span><a href="#"><i className="fal fa-clock"></i>{date}</a></span>
-                      <span><a href="#"><i className="fal fa-comment-alt-lines"></i>({comment}) Coments</a></span>
-                      <span><a href="#"><i className="fal fa-eye"></i> {views} views</a></span>
+                   
+                    
                     </div>
                     <h3 className="postbox__title">
                       {title}
                     </h3>
                     <div className="postbox__text">
-                      <p>One in four people in the world will be affected by mental or neurological disorders at some point in their lives, says the World Health Organization. Still, we spend more time brushing our teeth than taking care of our mental health, said Guy Winch in his TED talk.
+                      <p> {real_blogp1}
                       </p>
-                      <p>We tend to neglect our mental well-being because of the stigma of mental health care. But as societies become wiser and more self-aware, there is a greater need to redefine the meaning of mental health care. Naomi Hirabayashi and Marah Lidey do exactly that by drawing attention to the aspect of preventing mental health issues. The application they built makes mental self-care easy and accessible. of this year of the best law and his a part of this years.</p>
+                      <p>{real_blogp2}</p>
 
-                      <p>We tend to neglect our mental well-being because of the stigma of mental health care. But as societies become wiser and more self-aware, there is a greater need to redefine the meaning of mental health care. Naomi Hirabayashi and Marah Lidey do exactly that by drawing attention to the aspect of preventing mental health issues. The application they built makes mental self-care easy and accessible. of this year of the best law and his a part of this years.</p>
+                      <p>{real_blogp3}</p>
+                      <p>{real_blogp4}</p>
+                      <p>{real_blogp5}</p>
+                      <p>{real_blogp6}</p>
                     </div>
 
                     <div className="postbox__thumb2">
                       <div className="row gx-50">
                         <div className="col-xl-6">
-                          <p><img src="/assets/img/blog-details/blog-big-4.jpg" alt="" /></p>
+                     
                         </div>
                         <div className="col-xl-6">
-                          <p><img src="/assets/img/blog-details/blog-sm-5.jpg" alt="" /></p>
+                     
                         </div>
                       </div>
                     </div>
@@ -75,12 +78,7 @@ const BlogDetailsArea = ({ blog }) => {
                             <Link href="/blog-details">
                               <a>Design</a>
                             </Link>
-                            <Link href="/blog-details">
-                              <a>apps</a>
-                            </Link>
-                            <Link href="/blog-details">
-                              <a>data</a>
-                            </Link>
+                          
                           </div>
                         </div>
                         <div className="col-xl-6 col-lg-12">
@@ -105,30 +103,9 @@ const BlogDetailsArea = ({ blog }) => {
                   </div>
                 </article>
                 <div className="postbox__comment mb-65">
-                  <h3 className="postbox__comment-title">(04) Comment</h3>
+                 
                   <ul>
-                    {post_comments.map((comment,i) => {
-                      const {date,desc,img,name,children} = comment;
-                      return  <li key={i} className={`${children ? 'children' : ''}`}>
-                      <div className="postbox__comment-box d-flex">
-                        <div className="postbox__comment-info ">
-                          <div className="postbox__comment-avater mr-20">
-                            <img src={img} alt="" />
-                          </div>
-                        </div>
-                        <div className="postbox__comment-text">
-                          <div className="postbox__comment-name">
-                            <h5>{name}</h5>
-                            <span className="post-meta">{date}</span>
-                          </div>
-                          <p>{desc}</p>
-                          <div className="postbox__comment-reply">
-                            <a href="#">Reply</a>
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-                    })}
+         
                    
                   </ul>
                 </div>
@@ -141,9 +118,7 @@ const BlogDetailsArea = ({ blog }) => {
               </div>
             </div>
             <div className="col-xxl-4 col-xl-4 col-lg-4">
-              {/* blog sidebar start */}
-              <BlogSidebar />
-              {/* blog sidebar end */}
+            
             </div>
           </div>
         </div>

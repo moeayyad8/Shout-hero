@@ -667,3 +667,25 @@
 .user-rating span i{
   color: #F7931E;
 }
+.plans-table{
+  margin-top: 30px;
+
+  background-color: #efefef60;
+  border-radius: 9px;
+
+}
+.plans-product{
+  background-color: #0E63FF;
+  margin: 5%;
+  width: 25%;
+}
+.button-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title-div {
+  display: flex;
+
+  align-items: center;
+}

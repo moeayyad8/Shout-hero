@@ -2,12 +2,12 @@ import Link from 'next/link';
 import React from 'react';
 import { blog_data } from '../../../data';
 
-const blog_items = blog_data.filter(item => item.home_3);
+const blog_items = blog_data.filter(blog => blog.blog_page).slice(0, 3);
 
 const blog_contents = {
-  subtitle: 'Blog Post',
-  title: 'Popular',
-  highlight_text: 'blog post'
+  subtitle: 'Blog Posts',
+  title: 'Our ',
+  highlight_text: 'Blog'
 }
 
 const { highlight_text, subtitle, title } = blog_contents;

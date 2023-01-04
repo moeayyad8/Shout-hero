@@ -3,13 +3,13 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper";
 
 const brand_images = [
-  '/assets/img/brand/brand-1.png',
-  '/assets/img/brand/brand-2.png',
-  '/assets/img/brand/brand-3.png',
-  '/assets/img/brand/brand-4.png',
-  '/assets/img/brand/brand-5.png',
-  '/assets/img/brand/brand-6.png',
-  '/assets/img/brand/brand-6.png',
+  '/assets/img/brand/smallbusiness.png',
+  '/assets/img/brand/corperations.png',
+  '/assets/img/brand/agencies.png',
+  '/assets/img/brand/selfstarters.png',
+  '/assets/img/brand/software.png',
+  '/assets/img/brand/ecommerce.png',
+  '/assets/img/brand/creators.png',
 ]
 
 const Index = () => {

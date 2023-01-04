@@ -1,43 +1,56 @@
-import React from 'react';
+import React, {useState} from 'react';
 import ContactForm from '../forms/contact-form';
+import MultiLocationForm from '../forms/multi-location';
+import CreatorForm from '../forms/creator-form';
 
 const ContactArea = () => {
+  const [showSingleLocationForm, setShowSingleLocationForm] = useState(false);
+  const [showMultiLocationForm, setShowMultiLocationForm] = useState(false);
+  const [showCreatorForm, setShowCreatorForm] = useState(false);
+  
+  const handleSingleLocationClick = () => {
+    setShowSingleLocationForm(true);
+    setShowMultiLocationForm(false);
+    setShowCreatorForm(false);
+  }
+  
+  const handleMultiLocationClick = () => {
+    setShowSingleLocationForm(false);
+    setShowMultiLocationForm(true);
+    setShowCreatorForm(false);
+  }
+  
+  const handleCreatorClick = () => {
+    setShowSingleLocationForm(false);
+    setShowMultiLocationForm(false);
+    setShowCreatorForm(true);
+  }
   return (
     <>
       <div className="tp-contact-area pt-135 pb-130">
         <div className="container">
           <div className="row">
-            <div className="col-xl-6 col-lg-6 ">
-              <div className="tp-contct-wrapper contact-space-40">
-                <div className="tp-contact-thumb mb-60">
-                  <img src="/assets/img/contact/contact-1.jpg" alt="" />
-                </div>
-                <div className="tp-contact-info mb-40">
-                  <h4 className="contact-title">Mail Address</h4>
-                  <span><a href="mailto:(webmail@gmail.com)">(webmail@gmail.com)</a></span>
-                  <span><a href="mailto:(infoweb@gmail.com)">(infoweb@gmail.com)</a></span>
-                </div>
-                <div className="tp-contact-info mb-40">
-                  <h4 className="contact-title">Phone Number</h4>
-                  <span><a href="tel:(+1255-568-6523)">(+1255 - 568 - 6523)</a></span>
-                  <span><a href="tel:(+1255-568-6523)">(+1255 - 568 - 6523)</a></span>
-                </div>
-                <div className="tp-contact-info">
-                  <h4 className="contact-title">Address line</h4>
-                  <span><a href="https://www.google.com/maps" target="blank">Bowery St, New York, NY 10013,USA. Bowery Steae</a></span>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-6 col-lg-6">
-              <div className="tpcontact">
-                <h4 className="tp-contact-big-title">Let’s Talk...</h4>
+         
+          
+              <div className="tpcontact ">
+                <h4 className="tp-title"><span className="tp-">Theres no time to waste. </span> See what Shout Hero can do for you.</h4>
+                <div><h2>or email us at <a className="" href="mailto:hello@shouthero.io">hello@shouthero.io</a></h2></div>        
                 <div className="tpcontact__form tpcontact__form-3">
-                  {/* ContactForm start */}
-                  <ContactForm />
-                  {/* ContactForm end */}
+                 
+                  <h2> Complete this form to get into contact with our heroes</h2>
+                  <button onClick={handleSingleLocationClick} className="tp-btn-yellow">Single Location Business</button>
+                  <button onClick={handleMultiLocationClick} className="tp-btn-yellow">Multi Location Business</button>
+                  <button onClick={handleCreatorClick} className="tp-btn-yellow">Creator</button>
+                <button className=""></button>
+
+               {/* ContactForm start */}
+                { showSingleLocationForm ? <ContactForm /> : null }
+                { showMultiLocationForm ? <MultiLocationForm /> : null }
+                { showCreatorForm ? <CreatorForm /> : null }
+              {/* ContactForm end */}
                 </div>
                 <p className="ajax-response"></p>
-              </div>
+            
             </div>
           </div>
         </div>

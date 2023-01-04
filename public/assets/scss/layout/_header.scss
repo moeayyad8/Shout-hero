@@ -92,14 +92,17 @@
                     opacity: 1;
                     visibility: visible;
                     top: 100%;
+                   
                 }
             }
 
             & ul.submenu {
+    
+                height: 250px;
                 position: absolute;
-                background-color: var(--tp-common-black);
+                background-color:#e9e9e9;
                 padding: 40px;
-                width: 240px;
+                width: 680px; 
                 transition: .3s;
                 top: 110%;
                 opacity: 0;
@@ -117,7 +120,7 @@
                     & a {
                         font-size: 18px;
                         font-weight: 500;
-                        color: var(--tp-common-white);
+                        color: rgb(90, 62, 250);
                         display: block;
                         padding: 0;
 
@@ -246,7 +249,7 @@
 }
 
 .tp-header-bg {
-    background-color: var(--tp-common-white);
+    background-color:  var(--tp-theme-primary);
     margin-left: 80px;
     margin-right: 80px;
     padding: 0px 35px;
@@ -322,7 +325,7 @@
     top: 0;
     left: 0;
     right: 0;
-    background: var(--tp-common-white);
+    background: var(--tp-theme-1);
     width: 100%;
     padding-top: 0px;
     animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
@@ -899,3 +902,44 @@
 	width: 33.33%;
 	float: left;
 }
+
+
+
+/* Add some styling for the logo and the dropdown menu */
+.logo {
+    float: left;
+    margin-right: 20px;
+  }
+  
+  .dropdown {
+    float: left;
+    margin-right: 20px;
+    position: relative;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    top: 0%;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  /* Add some styling for the dropdown items */
+  .dropdown-item {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .dropdown-item:last-child {
+    border-bottom: 0;
+  }

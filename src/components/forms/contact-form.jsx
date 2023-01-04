@@ -1,46 +1,32 @@
-import { useFormik } from 'formik';
-import React from 'react';
-import { useSelector } from 'react-redux';
-import { toast } from 'react-toastify';
-import { contactSchema } from '../../utils/validation-schema';
-import ErrorMsg from './error-msg';
+import React, {useEffect} from "react";
 
-const ContactForm = () => {
-  // user
-  // const { user } = useSelector(state => state.auth);
-  // console.log(user)
+const ContactUs = () => {
+    useEffect(() => {
+        const script = document.createElement('script');
+        script.src='https://js.hsforms.net/forms/v2.js';
+        document.body.appendChild(script);
 
-  const { handleChange, handleSubmit, handleBlur, errors, values, touched } = useFormik({
-    initialValues: { name: '', email: '', msg: '' },
-    validationSchema: contactSchema,
-    onSubmit: (values, { resetForm }) => {
-      toast.success(`${values.name} your message sent successfully`, {
-        position: 'top-left'
-      })
-      resetForm()
-    }
-  })
+        script.addEventListener('load', () => {
+            // @TS-ignore
+            if (window.hbspt) {
+                // @TS-ignore
+                window.hbspt.forms.create({
+                    portalId: '23636729',
+                    formId: 'c3ac7a00-8e44-4b8f-b8f2-1c68b302aa66',
+                    target: '#hubspotForm'
+                })
+            }
+        });
+    }, []);
 
-  return (
-    <form id="contact-form" onSubmit={handleSubmit}>
-      <div className='mb-30'>
-        <input value={values.name} onChange={handleChange} onBlur={handleBlur}
-          name="name" type="text" placeholder="Enter your Name" />
-        {touched.name && <ErrorMsg error={errors.name} />}
-      </div>
-      <div className='mb-30'>
-        <input value={values.email} onChange={handleChange} onBlur={handleBlur}
-          name="email" type="email" placeholder="Enter your Mail" />
-        {touched.email && <ErrorMsg error={errors.email} />}
-      </div>
-      <div className='mb-30'>
-        <textarea value={values.msg} onChange={handleChange} onBlur={handleBlur} name="msg"
-          placeholder="Enter your Massage"></textarea>
-        {touched.msg && <ErrorMsg error={errors.msg} />}
-      </div>
-      <button type="submit" className="tp-btn-yellow">Send Massage</button>
-    </form>
-  );
-};
+    return (
+        <div className="bg-form">
+          <h2 className="tp-title-sm-left"> Request more information </h2>
+          <p>Need help deciding on our services? Use the form,chat, or get a call back to talk to a Shout Hero now</p>
+            <div id="hubspotForm"></div>
+        </div>
+    );
 
-export default ContactForm;
+}
+
+export default ContactUs;

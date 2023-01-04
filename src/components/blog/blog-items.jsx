@@ -50,11 +50,7 @@ const BlogItems = ({ itemsPerPage, items }) => {
                 prevEl: '.blog-nav-prev',
               }}
             >
-              {img.map((slider_img, i) => (
-                <SwiperSlide key={i}>
-                  <img src={slider_img} alt="" />
-                </SwiperSlide>
-              ))}
+             
               <div className="blog-post-slider-nav">
                 <div className="blog-nav-prev nav-button"><i className="fal fa-angle-left"></i></div>
                 <div className="blog-nav-next nav-button"><i className="fal fa-angle-right"></i></div>
@@ -75,8 +71,7 @@ const BlogItems = ({ itemsPerPage, items }) => {
             <div className="postbox__meta">
               <span><a href="#"><i className="fal fa-user-circle"></i> {author} </a></span>
               <span><a href="#"><i className="fal fa-clock"></i>{date}</a></span>
-              <span><a href="#"><i className="fal fa-comment-alt-lines"></i>({comment}) Coments</a></span>
-              <span><a href="#"><i className="fal fa-eye"></i> {views} views</a></span>
+         
             </div>
             <h3 className="postbox__title">
               <Link href={`/blog-details/${id}`}>

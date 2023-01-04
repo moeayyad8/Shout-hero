@@ -25,7 +25,8 @@ const HeaderSix = () => {
   return (
     <React.Fragment>
       <header className="d-none d-lg-block">
-        <div id="header-sticky" className={`tp-header-area-two tp-header-bg header-transparent header-transparent-two ${headerSticky ? 'header-sticky' : ''}`}>
+        <div id="header-sticky" className={`tp-header-area header-transparent hasdropdown-white pl-170 
+        pr-170 ${headerSticky ? 'header-sticky' : ''}`}>
           <div className="container-fluid">
             <div className="row align-items-center">
               <div className="col-xxl-3 col-xl-3 col-lg-3">
@@ -46,21 +47,7 @@ const HeaderSix = () => {
               </div>
               <div className="col-xxl-4 col-xl-3 col-lg-3">
                 <div className="tp-header-left d-flex align-items-center justify-content-end ">
-                  <ul className="d-none d-xxl-block">
-                    {!user?.email && <li>
-                      <Link href="/login">
-                        <a><i className="far fa-user fa-user"></i> Login</a>
-                      </Link>
-                    </li>}
-                    {user?.email && <li>
-                        <button onClick={logout} style={{cursor:'pointer'}}>
-                          <a><i className="far fa-user fa-user"></i>Logout</a>
-                        </button>
-                    </li>}
-                    <li><a href="#">EN<i className="fal fa-arrow-down arrow-down"></i></a>
-                      <Languages />
-                    </li>
-                  </ul>
+                
                   <div className="tp-header-yellow-button">
                     <Link href="/about">
                       <a className="tp-btn-white">How it Works</a>

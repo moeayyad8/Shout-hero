@@ -2,7 +2,7 @@ import React from 'react';
 import ReactPaginate from 'react-paginate';
 
 const PaginationArea = ({ handlePageClick, pageCount }) => {
-  return (
+  return ( 
       <ReactPaginate
         nextLabel={<><i className="far fa-angle-right"></i></>}
         onPageChange={handlePageClick}
