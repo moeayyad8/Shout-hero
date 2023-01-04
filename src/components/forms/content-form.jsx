@@ -19,7 +19,6 @@ const HubspotContactForm = () => {
 
     return (
         <div>
-            <h2 className='tp-title-sm-left'>  </h2>
             <p>You'll receive a reply within one business day.</p>
             <div id='hubspotForm'></div>
         </div>
