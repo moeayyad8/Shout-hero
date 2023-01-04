@@ -20,7 +20,7 @@ const HubspotContactForm = () => {
     return (
         <div>
 
-            <p>You'll receive a reply within one business day.</p>
+            <p>You will receive a reply within one business day.</p>
             <div id='hubspotForm'></div>
         </div>
     );

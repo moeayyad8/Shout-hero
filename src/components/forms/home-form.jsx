@@ -21,13 +21,13 @@ const HomeForm = () => {
 
   return (
       <div>
-          <div className='top-padding'></div>
+    <div className="top-padding"></div>
       
           <h2 className="tp-title-md">Submit a form </h2>
 
 
           <div id='hubspotForm'></div>
-          <p>You'll receive a reply within one business day.</p>
+          <p>You will receive a reply within one business day.</p>
       </div>
   );
 

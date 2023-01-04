@@ -87,7 +87,7 @@ const Franchise = () => {
          <ServicesArea/>
       </div>
      <FeatureArea/>
-      <h2 className="tp-title-md-blue">We'd love to hear from you.</h2>
+      <h2 className="tp-title-md-blue">Submit a Form</h2>
       <div className="container">
         <div className='bg-form'>
           <ContentForm className="ContentForm" />
