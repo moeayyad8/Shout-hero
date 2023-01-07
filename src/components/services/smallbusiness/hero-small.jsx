@@ -4,7 +4,7 @@ import React, { useRef, useContext } from 'react';
 const title = 'For Small Business'
 const objectives = 'Sign up today, and Get $200 off your first month!'
 const hero_img = '../../../assets/img/logo/shoutheroman.png';
-
+const local ='/local-launch'
 
 
 const HeroSmall = () => {
@@ -37,7 +37,9 @@ const HeroSmall = () => {
 
                       {/*Call Us */}
                       <div className="right">
-                        <button className="tp-btn-lg-yellow">See Plans</button>
+                        <Link href={local}>
+                        <button className="tp-btn-lg-yellow">Schedule Call</button>
+                        </Link>
                       </div>
                     </div>
                     <div className="md-padding"></div>

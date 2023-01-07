@@ -15,8 +15,6 @@ import Link from 'next/link';
 
 const team_img = '../../../assets/img/service/shoutheroteam.png';
 
-
-
 const SmallBusiness = () => {
 
   useEffect(() => {
@@ -28,7 +26,7 @@ const SmallBusiness = () => {
   return (
     <Wrapper>
       <HeaderThree />
-      <HeroSmall onClick=''/>
+      <HeroSmall/>
       <Grow />
       {/*White Area*/}
       <Splitter />
