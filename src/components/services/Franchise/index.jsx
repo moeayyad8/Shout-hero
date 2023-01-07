@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { FooterThree, HeaderTwo, Wrapper } from '../../../layout';
+import { FooterThree, HeaderThree, Wrapper } from '../../../layout';
 import { animationCreate } from '../../../utils/utils';
 import FeatureArea from '../../about/feature-area';
 import ServicesArea from '../../about/services-area';
@@ -7,6 +7,7 @@ import NewsLetter from '../../homes/home-4/news-letter';
 import Trustbar from '../../trustbar';
 import ContentForm from '../../forms/content-form';
 import FaqArea from '../../faq/faq-area';
+import Breadcrumb from '../../common/breadcrumb/breadcrumb';
 
 const title = <>Super Powered <br/> Franchise Marketing</>
 const subtitle="Advantages"
@@ -44,7 +45,8 @@ const Franchise = () => {
 
   return (
     <Wrapper>
-    <HeaderTwo/>
+    <HeaderThree/>
+    <Breadcrumb></Breadcrumb>
    
       <div className="grey-bg pt-10 pb-10">
         <div className="container">

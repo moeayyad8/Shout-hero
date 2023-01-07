@@ -45,7 +45,7 @@ const HeroArea = () => {
                 <div className="tp-hero-three-button-box d-flex align-items-center wow tpfadeUp" data-wow-duration=".7s" data-wow-delay="1s">
                   <div className="xs-bottom-space">
                     
-                    <Link href={'/plans'}>
+                    <Link href={'/contact'}>
                       <a className="tp-btn-yellow-semilar mr-55">{btn_text}</a>
                     </Link>
                 <div className='md-padding'></div>
