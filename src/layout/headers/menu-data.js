@@ -15,7 +15,7 @@ const menu_data = [
     mega_menu:true,
     has_dropdown:false,
     title:'For Small Business',
-    link:'#',
+    link:'/smallbusiness',
     sub_menus:
     
     [         
@@ -37,7 +37,7 @@ const menu_data = [
     id:3,
     mega_menu:true,
     has_dropdown:false,
-    title:'For Corperations',
+    title:'For Corporate',
     link:'#',
     sub_menus:[    
       
