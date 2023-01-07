@@ -772,29 +772,29 @@
     padding-top: 90px;
 
     @media #{$xxxl} {
-        margin-left: 220px;
+    display: none;
     }
 
     @media #{$xxl} {
-        margin-left: 110px;
+        display: none;
     }
 
     @media #{$xl} {
-        margin-left: 0px;
+        display: none;
     }
 
     @media #{$lg} {
-        margin-left: 0px;
-        bottom: -100px;
+        display: none;
+
     }
 
     @media #{$xs} {
-        margin-left: 0px;
+        display: none;
     }
 
     & img {
         @media #{$lg,$xs} {
-            max-width: 100%;
+            display: none;
         }
     }
 }

@@ -14,20 +14,19 @@ const display_img = '../../../assets/img/logo/display.png';
 const viewcounter = '../../../assets/img/logo/viewcounter.png';
 const analytics = '../../../assets/img/logo/analytics.png';
 const video = '../../../assets/img/logo/video.png';
-const postcounter = '../../../assets/img/logo/postcounter.png'; 
+const postcounter = '../../../assets/img/logo/postcounter.png';
 
 
-function Contact() {
-
+const Contact = () => {
   useEffect(() => {
     setTimeout(() => {
       animationCreate();
     }, 500);
   }, []);
 
-  
 
-  const handleLiveChatClick = () => {
+
+  function handleLiveChatClick() {
     fetch('//js-na1.hs-scripts.com/23636729.js')
       .then(response => response.text())
       .then(text => {
@@ -38,13 +37,13 @@ function Contact() {
         script.defer = true;
         document.body.appendChild(script);
       });
-  };
+  }
   const handleCallClick = () => {
     setShowCallClick(true);
     setShowCompleteForm(false);
 
   };
-  
+
   return (
     <Wrapper>
 
@@ -79,54 +78,54 @@ function Contact() {
                     <p>Schedule a time to speak with a hero.</p>
                     <button onClick={handleCallClick} className="tp-btn-yellow">CALL NOW</button>
                   </div>
-               
+
                 </div>
                 <div className="md-padding"></div>
 
                 <div className="align-text-center"><p className='text-white-email'>or email us at <a className="" href="mailto:hello@shouthero.io">hello@shouthero.io</a></p></div>
                 <hr></hr>
-                <div classname="top-padding">
-                <h3 className="">Certified heroes, ready to save the day.</h3>
-                <p> We care about your success, and our team of experts has the accolades to prove it. We are commited to helping you acheive any digital possiblility.</p>
-                <div className="tp-certif">
-                  <img  src={search_img} alt="Google Search Ads Certified"/>
-                  <img  src={display_img} alt="Google Display Ads Certified"/>
-                  <img  src={viewcounter} alt="500 Million views 2022"/>
-                  <img  src={postcounter} alt="1000+ Posts"/>
-                  <img  src={analytics} alt="Google Analytics Certified"/>
-                  <img  src={video} alt="Google Video Ads Certified"/>
+                <div className="top-padding">
+                  <h3 className="">Certified heroes, ready to save the day.</h3>
+                  <p> We care about your success, and our team of experts has the accolades to prove it. We are commited to helping you acheive any digital possiblility.</p>
+                  <div className="tp-certif">
+                    <img src={search_img} alt="Google Search Ads Certified" />
+                    <img src={display_img} alt="Google Display Ads Certified" />
+                    <img src={viewcounter} alt="500 Million views 2022" />
+                    <img src={postcounter} alt="1000+ Posts" />
+                    <img src={analytics} alt="Google Analytics Certified" />
+                    <img src={video} alt="Google Video Ads Certified" />
 
-                  <li>
-                    <p className='font-bold-list'>Certifications and Experience </p>
-                   
-                    <ul>
-                      <p>Google Search Ads Certified</p>
-                    </ul>
-                    <ul>
-                      <p>Google Display Ads Certified</p>
-                    </ul>
-                    <ul>
-                      <p>500 Million views in 2022</p>
-                    </ul>
-                    <ul>
-                      <p>1000+ Posts</p>
-                    </ul>
-                    <ul>
-                      <p>Google Analytics Certified</p>
-                    </ul>
-                    <ul>
-                      <p>Google Video Ads Certified</p>
-                    </ul>
-                  </li>
-                </div>
+                    <li>
+                      <p className='font-bold-list'>Certifications and Experience </p>
+
+                      <ul>
+                        <p>Google Search Ads Certified</p>
+                      </ul>
+                      <ul>
+                        <p>Google Display Ads Certified</p>
+                      </ul>
+                      <ul>
+                        <p>500 Million views in 2022</p>
+                      </ul>
+                      <ul>
+                        <p>1000+ Posts</p>
+                      </ul>
+                      <ul>
+                        <p>Google Analytics Certified</p>
+                      </ul>
+                      <ul>
+                        <p>Google Video Ads Certified</p>
+                      </ul>
+                    </li>
+                  </div>
                 </div>
 
-              
+
               </div>
             </div>
 
           </div>
-          {/* Right Side Hero */}
+
           <div className="right ">
             <div className="top-padding">
             </div>

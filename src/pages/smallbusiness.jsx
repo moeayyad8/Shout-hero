@@ -1,12 +1,12 @@
 import { Wrapper } from "../layout";
 import SEO from "../components/seo";
-import SocialMain from "../components/services/social";
+import SmallBusinessMain from "../components/services/smallbusiness";
 
 const index = () => {
   return (
     <Wrapper>
-      <SEO pageTitle={'The #1 Clips Agency'} />
-      <SocialMain/>
+      <SEO pageTitle={'Video Hero For Small Business'} />
+      <SmallBusinessMain/>
     </Wrapper>
   );
 };

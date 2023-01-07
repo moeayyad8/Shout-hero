@@ -9,11 +9,25 @@ const menu_data = [
     ]
   },
 
+
   {
     id:3,
     mega_menu:true,
-    has_dropdown:true,
-    title:'Marketing',
+    has_dropdown:false,
+    title:'For Small Business',
+    link:'#',
+    sub_menus:
+    
+    [         
+   
+      
+    ]
+  },
+  {
+    id:3,
+    mega_menu:true,
+    has_dropdown:false,
+    title:'For Franchise',
     link:'#',
     sub_menus:[    
 
@@ -22,34 +36,23 @@ const menu_data = [
   {
     id:3,
     mega_menu:true,
-    has_dropdown:true,
-    title:'Advertising',
+    has_dropdown:false,
+    title:'For Corperations',
     link:'#',
     sub_menus:[    
-
+      
     ]
   },
-  {
-    id:3,
-    mega_menu:true,
-    has_dropdown:true,
-    title:'Content',
-    link:'#',
-    sub_menus:[    
 
-    ]
-  },
   {
     id:2,
     mega_menu:false,
     has_dropdown:false,
-    title:'Contact',
-    link:'/contact',
+    title:'Blog',
+    link:'/',
     sub_menus:[
-  
     ]
   },
-
 ]
 export default menu_data;
 

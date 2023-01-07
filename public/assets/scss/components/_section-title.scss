@@ -208,3 +208,212 @@
     line-height: 40px; // This will set the height of the rectangle to 40 pixels
 
 }
+.tp-service-title{
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--tp-theme-primary);
+    margin-bottom: 40px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    @media #{$xl} {
+        font-size:50px;
+    }
+    @media #{$lg} {
+        font-size:42px;
+    }
+    @media #{$md}{
+        font-size: 35px;
+    }
+    @media #{$xs}{
+        font-size: 35px;
+    }
+    @media #{$sm}{
+        font-size: 35px;
+    }
+}
+.tp-title-md-white{
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+   
+}
+.tp-p-white{
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+   
+}
+.tp-subtitle-md{
+    font-size: 30px;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 20px;
+    &::before{
+        height: 12px;
+        width: 12px;
+        background-color: var(--tp-theme-primary);
+        content: '';
+        display: inline-block;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+    
+}
+.row-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tp-subtitle-md-blue{
+        font-size: 30px;
+        font-weight: bo;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        color:#ffffff;
+        margin-bottom: 20px;
+    
+    }
+    .tp-title-white-lg{
+    font-size: 70px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+           filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+     @media #{$xl} {
+    font-size: 50px;
+    }
+    @media #{$lg} {
+    font-size: 50px;
+    }
+    @media #{$md}{
+        font-size: 50px;
+    }
+    @media #{$xs}{
+        font-size: 50px;
+    }
+    @media #{$sm}{
+        font-size: 50px;
+    } 
+}
+    .tp-title-sm-white{
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+
+     @media #{$xl} {
+        font-size:22px;
+    }
+    @media #{$lg} {
+        font-size:22px;
+    }
+    @media #{$md}{
+        font-size:22px;
+    }
+    @media #{$xs}{
+        font-size:22px;
+    }
+    @media #{$sm}{
+        font-size:22px;
+    }  
+}
+.tp-subtitle-white{
+    font-size: 18px;
+    font-weight: 500;
+    color: #ffffff;
+    margin-bottom: 20px;
+    &::before{
+        height: 12px;
+        width: 12px;
+        background-color: var(--tp-theme-primary);
+        content: '';
+        display: inline-block;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+}
+.tp-p-md{
+    font-size: 24px;
+    font-weight: 600;
+}
+.tp-message{
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--tp-common-black);
+    padding-top: 5%;
+    margin-bottom: 20px;
+    @media #{$xl} {
+        font-size: 22px;
+    }
+    @media #{$lg} {
+        font-size: 22px;
+    }
+    @media #{$md}{
+        font-size: 22px;
+    }
+    @media #{$xs}{
+        font-size: 22px;
+    }
+    @media #{$sm}{
+        font-size: 22px;
+    }
+
+}
+.tp-message-description{
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--tp-common-black);
+    padding-top: 5%;
+    margin-bottom: 20px;
+    @media #{$xl} {
+        font-size: 14px;
+    }
+    @media #{$lg} {
+        font-size: 14px;
+    }
+    @media #{$md}{
+        font-size: 14px;
+    }
+    @media #{$xs}{
+        font-size: 14px;
+    }
+    @media #{$sm}{
+        font-size: 14px;
+    }
+
+}
+.tp-service-base{
+    font-size: 60px;
+    font-weight: bold;
+    box-shadow: #000000;
+    color: #fff;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.align-perks-right{
+justify-content: right;
+text-align: right;
+padding:5%;
+}
+.tp-message-description-white{
+    font-size: 24px;
+    font-weight: 500;
+    color: #ffffff;
+    padding-top: 5%;
+    margin-bottom: 20px;
+    @media #{$xl} {
+        font-size: 14px;
+    }
+    @media #{$lg} {
+        font-size: 14px;
+    }
+    @media #{$md}{
+        font-size: 14px;
+    }
+    @media #{$xs}{
+        font-size: 14px;
+    }
+    @media #{$sm}{
+        font-size: 14px;
+    }
+
+}
+.service-padding{
+padding: 10%;
+    
+}

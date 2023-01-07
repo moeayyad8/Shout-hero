@@ -6,7 +6,7 @@ import VideoModal from '../../common/modals/modal-video';
 import IconCircle from './iconcircle.jsx';
 
 const hero_contents = {
-  title: "Customers can't hear you? You need a Shout Hero!",
+  title: "Skip new platform distress. You need a Shout Hero!",
   text: 'We care about your success, and our team of experts has the accolades to prove it. We are commited to helping you acheive any digital possiblility.',
   btn_text: 'Services and Pricing',
   video_title: 'Who we are',

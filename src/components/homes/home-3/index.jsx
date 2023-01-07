@@ -1,4 +1,4 @@
-import React, { useEffect, useState} from 'react';
+import React, { useEffect, useState } from 'react';
 import { FooterThree, HeaderSix, HeaderThree, Wrapper } from '../../../layout';
 import { animationCreate } from '../../../utils/utils';
 import CtaTwo from '../../common/cta/cta-2';
@@ -10,7 +10,7 @@ import CreativeArea from '../home/creative-area';
 import NeedHelp from './needhelp';
 import HomeForm from '../../forms/home-form';
 import BlogArea from '../../homes/home-3/blog-area';
-
+import Introduce from './introduce';
 
 const HomeThree = () => {
   useEffect(() => {
@@ -24,18 +24,23 @@ const HomeThree = () => {
     <Wrapper>
       <HeaderThree />
       <HeroArea />
-      <Services />
-      {/*    <div className='empower-bg'>
-        <h3 className='tp-title-sm-left'>See how Shout Hero Empowers</h3> <p>Small Business</p> <p>Corperations</p> <p>Creators</p> <p>SaaS</p> <p>Agencies</p> <p>eCommerce</p> <p>Self-Starters</p>
-      </div> */}
+      <Introduce/>
       <CreativeArea></CreativeArea>
+      {/*
+            <Services />
+
+      */}
       <CtaTwo />
-      <NewsLetter />
-      <NeedHelp/>
-      <BlogArea/>
-      <div className='container'>
+      {/*
+            <NewsLetter />
+      <NeedHelp />
     
-      <HomeForm />      </div> 
+      */}
+
+      <div className='container'>
+        <HomeForm />
+      </div>
+      <BlogArea />
       <FooterThree />
     </Wrapper >
   );

@@ -22,10 +22,10 @@ const NavMenus = () => {
         
     
         <li key={i}>
-                  
-                <Link href={sub_m.link}>
+               <a>{sub_m.category}</a>   
+                <button className='tp-btn-yellow-semilar' href={sub_m.link}>
                   <a>{sub_m.title}</a>
-                </Link>
+                </button>
       
                 
               </li>

@@ -1539,7 +1539,8 @@
 }
 .service-hero {
     display: flex;
-  }
+  
+}
   
   .service-hero-text {
     flex: 1;
@@ -1603,5 +1604,246 @@
   .tp-certif img:hover p {
     display: block;
   }
-  /*# sourceMappingURL=style.css.map */
   
+  .tp-sv-tag-lg {
+    display: inline-block;   
+    background-color: #2f54eb; // This will set the background color of the rectangle to light grey
+    color: rgb(255, 255, 255); // This will set the text color to dark grey
+    font-size: 24px; // This will set the font size to 12 pixels
+    text-align: center; // This will center-align the text in the rectangle
+    line-height: 60px; // This will vertically center the text in the rectangle
+    border-radius: 9px; // This will give the rectangle rounded corners
+    padding: 0 20px; // This will add 10 pixels of padding to the left and right of the text
+    margin : 5px;
+    font-weight: 900;
+  &:hover {
+          transform: scaleX(1.05);
+          transform: scaleY(1.05);
+          translate: 3px;
+        }    
+}
+    .tp-sv-tag-yellow-lg {
+        display: inline-block;
+        background-color: var(--tp-theme-primary); // This will set the background color of the rectangle to light grey
+        color: rgb(255, 255, 255); // This will set the text color to dark grey
+        border-color: #3F3F47;
+        font-size: 24px; // This will set the font size to 12 pixels
+        text-align: center; // This will center-align the text in the rectangle
+        line-height: 60px; // This will vertically center the text in the rectangle
+        border-radius: 9px; // This will give the rectangle rounded corners
+        padding: 0 20px; // This will add 10 pixels of padding to the left and right of the text
+        margin : 5px;
+        font-weight: 900;
+  &:hover {
+          transform: scaleX(1.05);
+          transform: scaleY(1.05);
+          translate: 3px;
+        }
+    }
+    .tp-sv-tag-green-lg {
+        display: inline-block;
+        background-color: #32eb2f; // This will set the background color of the rectangle to light grey
+        color: rgb(255, 255, 255); // This will set the text color to dark grey
+        font-size: 24px; // This will set the font size to 12 pixels
+        text-align: center; // This will center-align the text in the rectangle
+        line-height: 60px; // This will vertically center the text in the rectangle
+        border-radius: 9px; // This will give the rectangle rounded corners
+        padding: 0 20px; // This will add 10 pixels of padding to the left and right of the text
+        margin : 5px;
+        font-weight: 900;
+  &:hover {
+          transform: scaleX(1.05);
+          transform: scaleY(1.05);
+          translate: 3px;
+        }
+    }
+    .tp-sv-tag-purple-lg {
+        display: inline-block;
+        background-color: #b30beb; // This will set the background color of the rectangle to light grey
+        color: rgb(255, 255, 255); // This will set the text color to dark grey
+        font-size: 24px; // This will set the font size to 12 pixels
+    text-align: center; // This will center-align the text in the rectangle
+    line-height: 60px; // This will vertically center the text in the rectangle
+    border-radius: 9px; // This will give the rectangle rounded corners
+    padding: 0 20px; // This will add 10 pixels of padding to the left and right of the text
+    margin : 5px;
+    font-weight: 900;
+  &:hover {
+          transform: scaleX(1.05);
+          transform: scaleY(1.05);
+          translate: 3px;
+        }
+    }
+    .tp-sv-tag-red-lg {
+        display: inline-block;
+        background-color: #ed2f4b; // This will set the background color of the rectangle to light grey
+        color: rgb(255, 255, 255); // This will set the text color to dark grey
+        font-size: 24px; // This will set the font size to 12 pixels
+        text-align: center; // This will center-align the text in the rectangle
+        line-height: 60px; // This will vertically center the text in the rectangle
+        border-radius: 9px; // This will give the rectangle rounded corners
+        padding: 0 20px; // This will add 10 pixels of padding to the left and right of the text
+        margin : 5px;
+        font-weight: 900;
+  &:hover {
+          transform: scaleX(1.05);
+          transform: scaleY(1.05);
+          translate: 3px;
+        }
+    }
+    .tp-sv-tag-lightpurple-lg {
+        display: inline-block;
+        background-color: #7347ea; // This will set the background color of the rectangle to light grey
+        color: rgb(255, 255, 255); // This will set the text color to dark grey
+        font-size: 24px; // This will set the font size to 12 pixels
+    text-align: center; // This will center-align the text in the rectangle
+    line-height: 60px; // This will vertically center the text in the rectangle
+    border-radius: 9px; // This will give the rectangle rounded corners
+    padding: 0 20px; // This will add 10 pixels of padding to the left and right of the text
+    margin : 5px;
+    font-weight: 900;
+  &:hover {
+          transform: scaleX(1.05);
+          transform: scaleY(1.05);
+          translate: 3px;
+        }
+    }
+    .tp-sv-tag-orange-lg {
+        display: inline-block;
+        background-color: #eea424; // This will set the background color of the rectangle to light grey
+        color: rgb(255, 255, 255); // This will set the text color to dark grey
+        font-size: 24px; // This will set the font size to 12 pixels
+        text-align: center; // This will center-align the text in the rectangle
+        line-height: 60px; // This will vertically center the text in the rectangle
+        border-radius: 9px; // This will give the rectangle rounded corners
+        padding: 0 20px; // This will add 10 pixels of padding to the left and right of the text
+        margin : 5px;
+        font-weight: 900;
+  &:hover {
+          transform: scaleX(1.05);
+          transform: scaleY(1.05);
+          translate: 3px;
+        }
+    }
+    .tp-sv-tag-teal-lg {
+        display: inline-block;
+        background-color: #24eebf; // This will set the background color of the rectangle to light grey
+        color: rgb(255, 255, 255); // This will set the text color to dark grey
+        font-size: 24px; // This will set the font size to 12 pixels
+    text-align: center; // This will center-align the text in the rectangle
+    line-height: 60px; // This will vertically center the text in the rectangle
+    border-radius: 9px; // This will give the rectangle rounded corners
+    padding: 0 20px; // This will add 10 pixels of padding to the left and right of the text
+    margin : 5px;
+    font-weight: 900;
+  &:hover {
+          transform: scaleX(1.05);
+          transform: scaleY(1.05);
+          translate: 3px;
+        }    
+}
+    .tp-sv-tag-pink-lg {
+        display: inline-block;
+        background-color: #ee24dd; // This will set the background color of the rectangle to light grey
+        color: rgb(255, 255, 255); // This will set the text color to dark grey
+        font-size: 24px; // This will set the font size to 12 pixels
+        text-align: center; // This will center-align the text in the rectangle
+        line-height: 60px; // This will vertically center the text in the rectangle
+        border-radius: 9px; // This will give the rectangle rounded corners
+        padding: 0 20px; // This will add 10 pixels of padding to the left and right of the text
+        margin : 5px;
+        font-weight: 900;
+  &:hover {
+          transform: scaleX(1.05);
+          transform: scaleY(1.05);
+          translate: 3px;
+        }
+
+    }
+    .tp-sv-tag-lightred-lg {
+        display: inline-block;
+        background-color: #ed5454; // This will set the background color of the rectangle to light grey
+        color: rgb(255, 255, 255); // This will set the text color to dark grey
+        font-size: 24px; // This will set the font size to 12 pixels
+        text-align: center; // This will center-align the text in the rectangle
+        line-height: 60px; // This will vertically center the text in the rectangle
+        border-radius: 9px; // This will give the rectangle rounded corners
+        padding: 0 20px; // This will add 10 pixels of padding to the left and right of the text
+        margin : 5px;
+        font-weight: 900;
+          &:hover {
+          transform: scaleX(1.05);
+          transform: scaleY(1.05);
+          translate: 3px;
+        }
+
+    }
+    .tp-sv-tag-lightgreen-lg {
+        display: inline-block;
+        background-color: #54ed94; // This will set the background color of the rectangle to light grey
+        color: rgb(255, 255, 255); // This will set the text color to dark grey
+        font-size: 24px; // This will set the font size to 12 pixels
+        text-align: center; // This will center-align the text in the rectangle
+        line-height: 60px; // This will vertically center the text in the rectangle
+        border-radius: 9px; // This will give the rectangle rounded corners
+        padding: 0 20px; // This will add 10 pixels of padding to the left and right of the text
+        margin : 5px;
+        font-weight: 900;
+           &:hover {
+          transform: scaleX(1.05);
+          transform: scaleY(1.05);
+          translate: 3px;
+        }
+
+    }
+    .tp-sv-tag-lightpink-lg {
+        display: inline-block;
+        background-color: #ea99e1; // This will set the background color of the rectangle to light grey
+        color: rgb(255, 255, 255); // This will set the text color to dark grey
+        font-size: 24px; // This will set the font size to 12 pixels
+        text-align: center; // This will center-align the text in the rectangle
+        line-height: 60px; // This will vertically center the text in the rectangle
+        border-radius: 9px; // This will give the rectangle rounded corners
+        padding: 0 20px; // This will add 10 pixels of padding to the left and right of the text
+        margin : 5px;
+        font-weight: 900;
+        &:hover {
+          transform: scaleX(1.05);
+          transform: scaleY(1.05);
+          translate: 3px;
+        }
+    }
+    .service-hero-50{
+        text-align: right;
+        flex: 0 0 auto;
+        scale:calc(100vw/1000);
+        width: 50%;
+        
+    @media #{$xxxl} {
+        display: none;
+        }
+    
+        @media #{$xxl} {
+            display: none;
+        }
+    
+        @media #{$xl} {
+            display: none;
+        }
+    
+        @media #{$lg} {
+            display: none;
+    
+        }
+    
+        @media #{$xs} {
+            display: none;
+        }
+    
+        & img {
+            @media #{$lg,$xs} {
+                display: none;
+            }
+        }
+      }
+    /*# sourceMappingURL=style.css.map */

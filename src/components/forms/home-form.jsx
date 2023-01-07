@@ -23,7 +23,7 @@ const HomeForm = () => {
       <div>
     <div className="top-padding"></div>
       
-          <h2 className="tp-title-md">Submit a form </h2>
+          <h2 className="tp-title-md">Contact Us! </h2>
 
 
           <div id='hubspotForm'></div>
