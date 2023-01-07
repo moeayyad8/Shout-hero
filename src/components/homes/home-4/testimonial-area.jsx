@@ -113,7 +113,7 @@ const TestimonialArea = ({ home_6, style_2 = false }) => {
           }}
         >
           {testimonial_data.map((item) => {
-            const { id, brand_img, desc, img, name, ratings, title,quote,tagline } = item;
+            const { id, desc, img, name, title,quote,tagline } = item;
             return <SwiperSlide key={id}>
               <div className="tp-testimonial-item-four">
               <h2 className="tp-title-sm">{quote}</h2>
@@ -121,11 +121,7 @@ const TestimonialArea = ({ home_6, style_2 = false }) => {
                   <p>{desc}</p>
                 </div>
               <h2 className='tp-title'>{tagline}</h2>
-                
                 <div className="tp-testimonial-item-four__client d-flex align-items-center">
-                  <div className="mr-20">
-                    <img src={img} alt="" />
-                  </div>
                   <div className="tp-testimonial-item-four__position">
                     <h4 className="m-0">{name}</h4>
                     <span>{title}</span>
