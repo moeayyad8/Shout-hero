@@ -424,6 +424,8 @@ color: #443cf4;
 	margin-left: 7%;
 }
 .bg-blue-gradient{
+	width: 100%;
+	display: flex;
 	background: radial-gradient(circle at left, #443cf4, #6a82fb); /* Gradient from left to center */
 	background-image: radial-gradient(circle at right, #443cf4, #6a82fb); /* Add a second gradient for right to center */}
 	.picture-container{

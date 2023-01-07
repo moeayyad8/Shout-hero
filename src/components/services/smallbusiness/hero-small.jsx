@@ -23,7 +23,7 @@ const HeroSmall = () => {
 
                     <h2 className="tp-title-sm-white">{title}</h2>
                     <hr></hr>
-                    <h1 className="tp-title-white-lg">Bring in a hero to make your business fly.</h1>
+                    <h1 className="tp-title-white-lg">Make your business fly with Video Hero.</h1>
                     <h1 className="tp-service-title">{objectives}</h1>
 
                     <li>
