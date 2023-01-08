@@ -13,7 +13,7 @@ return (
 
 <div className="top-padding"></div><div className="top-padding"></div>
 <h1 className="tp-title-md">14 Risk Free Guarentee</h1>
-<p> At our marketing agency, we are confident in the results that we deliver to our clients. That's why we offer a 14-day money back guarantee. If you are not satisfied with the results of our marketing services within 14 days of starting your campaign, we will refund the full amount of your investment.
+<p> At our marketing agency, we are confident in the results that we deliver to our clients. Thats why we offer a 14-day money back guarantee. If you are not satisfied with the results of our marketing services within 14 days of starting your campaign, we will refund the full amount of your investment.
 
 To qualify for a refund, you must have implemented all of the recommendations provided by our team and provided us with the necessary information and materials to execute the campaign. If you have not met these requirements, we reserve the right to refuse a refund.
 

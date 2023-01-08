@@ -14,7 +14,7 @@ return (
 <h1 className="tp-title-md">Policy</h1>
 <p> At our marketing agency, we are committed to protecting the privacy of our clients and their customers. We understand the importance of maintaining the confidentiality of personal information and we take all necessary measures to ensure that it is protected.
 
-We collect personal information from our clients in order to better understand their marketing needs and to provide them with the most effective solutions. This information may include contact details, demographics, and purchasing habits. We may also collect information from our clients' customers through surveys, social media, and other marketing channels.
+We collect personal information from our clients in order to better understand their marketing needs and to provide them with the most effective solutions. This information may include contact details, demographics, and purchasing habits. We may also collect information from our clients customers through surveys, social media, and other marketing channels.
 
 We will only use the personal information we collect for the purpose of providing marketing services to our clients. We will not sell or share this information with third parties without the express consent of our clients.
 
