@@ -15,7 +15,7 @@ const SEO = ({ pageTitle, font }) => (
       <meta name="robots" content="noindex, follow" />
       <meta
         name="viewport"
-        content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        content="width=device-width, initial-scale=1"
       />
 
       {font && <link href={font} rel="stylesheet" />}
