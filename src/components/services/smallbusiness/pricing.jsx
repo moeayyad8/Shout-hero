@@ -48,10 +48,10 @@ const Pricing = () => {
           (
             <div className='plans-box'>
               <div className='plans-left'>
-                <SingleServiceTwo edits="2" scripts="3" consulting="weekly" name="Base" price="$499" offer="save 10% when you pay quarterly" stripe="https://buy.stripe.com/8wM3fPcJ912PbWE28j" term="monthly"></SingleServiceTwo>
+                <SingleServiceTwo edits="2" scripts="3" consulting="weekly " name="Base" price="$499" offer="save 10% when you pay quarterly" stripe="https://buy.stripe.com/8wM3fPcJ912PbWE28j" term="Monthly"></SingleServiceTwo>
               </div>
               <div className='plans-right'>
-                <SingleServiceTwo edits='4' scripts='5' consulting='unlimited' name="Plus" price="$749" offer="save 10% when you pay quarterly" stripe="https://buy.stripe.com/aEUcQp5gH3aXaSA4go" term="monthly"></SingleServiceTwo>
+                <SingleServiceTwo edits='4' scripts='5' consulting='unlimited ' name="Plus" price="$749" offer="save 10% when you pay quarterly" stripe="https://buy.stripe.com/aEUcQp5gH3aXaSA4go" term="Monthly"></SingleServiceTwo>
               </div>
             </div>
           )}
@@ -60,10 +60,10 @@ const Pricing = () => {
         {showQuarterly && (
           <div className='plans-box'>
             <div className='plans-left'>
-              <SingleServiceTwo edits="2" scripts="3" consulting="weekly" name="Base" price="$1349" offer="Get 2 Months Free Annually" stripe="https://buy.stripe.com/aEU4jTbF59zl8Ks3co" term="quarterly"></SingleServiceTwo>
+              <SingleServiceTwo edits="2" scripts="3" consulting="weekly " name="Base" price="$1349" offer="Get 2 Months Free Annually" stripe="https://buy.stripe.com/aEU4jTbF59zl8Ks3co" term="Quarterly"></SingleServiceTwo>
             </div>
             <div className='plans-right'>
-              <SingleServiceTwo  edits='4' scripts='5' consulting='unlimited' name="Plus" price="$1999" offer="Get 2 Months Free Annually" stripe="https://buy.stripe.com/dR6dUt7oPbHt5yg5kz" term="monthly"></SingleServiceTwo>
+              <SingleServiceTwo  edits='4' scripts='5' consulting='unlimited ' name="Plus" price="$1999" offer="Get 2 Months Free Annually" stripe="https://buy.stripe.com/dR6dUt7oPbHt5yg5kz" term="Quarterly"></SingleServiceTwo>
             </div>
           </div>
         )}
@@ -73,13 +73,13 @@ const Pricing = () => {
         {showAnnually && (
           <div className='plans-box'>
             <div className='plans-left'>
-              <div className="perk-container">
-              <SingleServiceTwo edits="2" scripts="3" consulting="weekly" name="Base" price="$5249" offer="You are getting the best deal!" stripe="https://buy.stripe.com/dR69Ed5gH7rdaSA8wJ" term="annually"></SingleServiceTwo>
+              
+              <SingleServiceTwo edits="2" scripts="3" consulting="weekly " name="Base" price="$5249" offer="You are getting the best deal!" stripe="https://buy.stripe.com/dR69Ed5gH7rdaSA8wJ" term="Annually"></SingleServiceTwo>
 
-              </div>
+              
             </div>
             <div className='plans-right'>
-              <SingleServiceTwo edits='4' scripts='5' consulting='unlimited' name="Plus" price="$11849" offer="You are getting the best deal!" stripe="https://buy.stripe.com/4gweYxaB16n9aSAcN2" term="annually"></SingleServiceTwo>
+              <SingleServiceTwo edits='4' scripts='5' consulting='unlimited ' name="Plus" price="8249" offer="You are getting the best deal!" stripe="https://buy.stripe.com/4gweYxaB16n9aSAcN2" term="Annually"></SingleServiceTwo>
             </div>
           </div>
         )}
