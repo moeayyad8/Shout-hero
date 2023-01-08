@@ -8,7 +8,7 @@ import IconCircle from './iconcircle.jsx';
 const hero_contents = {
   title: "Skip new platform distress. You need a Shout Hero!",
   text: 'We care about your success, and our team of experts has the accolades to prove it. We are commited to helping you acheive any digital possiblility.',
-  btn_text: 'Services and Pricing',
+  btn_text: 'Contact Us',
   video_title: 'Who we are',
   video_id: 'LJbkLdtEW00',
   hero_img: '/assets/img/hero/shoutheroanimated.png'
@@ -52,7 +52,7 @@ const HeroArea = () => {
                 <div className="tp-certif">
                   <img  src={search_img} alt="Google Search Ads Certified"/>
                   <img  src={display_img} alt="Google Display Ads Certified"/>
-                  <img  src={viewcounter} alt="500 Million views 2022"/>
+                 
                   <img  src={postcounter} alt="1000+ Posts"/>
                   <img  src={analytics} alt="Google Analytics Certified"/>
                   <img  src={video} alt="Google Video Ads Certified"/>

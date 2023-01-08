@@ -53,7 +53,7 @@ const Introduce = () => {
           <button className='tp-sv-tag-lightpurple-lg'>Engagement</button>
           
         </div>
-        <div className='team-class'>
+        <div className='team-class2'>
               <img src={team_img} alt="" />
             </div>
       <div className='top-padding'></div>

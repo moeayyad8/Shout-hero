@@ -1,34 +1,49 @@
 import Link from 'next/link';
 import React from 'react';
+import { useState } from 'react';
 
-const SingleServiceTwo = ({ service, border }) => {
+
+const SingleServiceTwo = ({ name, price, offer,stripe,term }) => {
+  const [showFeatures, setShowFeatures] = useState(false);
+  const handleFeatures = () => {
+    setShowFeatures(true)
+  }
+
   return (
-    <div className="col-lg-6 col-md-12 col-12">
-      <div className="tp-sv-box wow tpfadeUp" data-wow-duration={service.duration}
-        data-wow-delay={service.delay}>
-        <div className={`tp-service-item ${border ? border : ''} d-flex mb-30`}>
-          <div className="tp-sv-img">
-            <img src={service.img} alt="" />
-          </div>
-          <div className="tp-sv-content pl-60">
-            <h3 className=" tp-sv-title mb-35">
-              <Link href={`/service-details/${service.id}`}>
-                <a>{service.title}</a>
-              </Link>
-            </h3>
-            <p className="mb-30">{service.text_1}</p>
-            <p>{service.text_2}</p>
-            <div className="tp-sv-link mt-35">
-              <Link href={`/service-details/${service.id}`}>
-                <a>
-                  <i className="far fa-arrow-right"></i> Learn More
-                </a>
-              </Link>
-            </div>
-          </div>
-        </div>
+    <div className='plans-box-card'>
+      <div className='plans-circle'>
+        <div className="service-padding">
+          <h2 className='tp-service-base'>{name}</h2>
+          <div className="md-padding"></div>
+          <p className='plans-price'>
+
+            <span className='plans-price-black'>{price}</span>/{term}</p>
+          <p>{offer}</p> </div>
+
       </div>
+
+      <li className="align-perks-right">
+        <ul className='tp-subtitle-white'>up to 4 edits/day</ul>
+        <ul className='tp-subtitle-white'>24 hour turnaround</ul>
+        <ul className='tp-subtitle-white '>5 scripted content ideas / week </ul>
+        <ul className='tp-subtitle-white'>engagement management </ul>
+        <ul className='tp-subtitle-white'>unlimited consulting</ul>
+        <button onClick={handleFeatures} className='tp-p-white'>See More Features +</button>
+        {showFeatures && <li>
+          <ul className='tp-subtitle-white'>Owners Training</ul>
+          <ul className='tp-subtitle-white'>Best Fit Content Systems</ul>
+          <ul className='tp-subtitle-white'>Account Audit</ul>
+          <ul className='tp-subtitle-white'>Discount Supplementary Accounts </ul>
+
+        </li>}
+      </li>
+      <div className='row-center'> <Link href={stripe}><button href='/google' className='tp-btn-lg-yellow-space'>Checkout</button></Link>
+      </div>
+      <div className='row-center'><p className='tp-message-description-white'>14 Day Risk Free Guarentee</p></div>
     </div>
+
+
+
   );
 };
 

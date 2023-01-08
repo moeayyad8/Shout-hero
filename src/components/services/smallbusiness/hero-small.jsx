@@ -2,7 +2,7 @@ import Link from 'next/link';
 import React, { useRef, useContext } from 'react';
 
 const title = 'For Small Business'
-const objectives = 'Sign up today, and Get $200 off your first month!'
+const objectives = 'Save 10% when you pay quarterly!'
 const hero_img = '../../../assets/img/logo/shoutheroman.png';
 const local ='/local-launch'
 
@@ -27,10 +27,10 @@ const HeroSmall = () => {
                     <h1 className="tp-service-title">{objectives}</h1>
 
                     <li>
-                      <ul className='tp-subtitle-white'>Specilized Expertise</ul>
+                    
                       <ul className='tp-subtitle-white'>Save an average of 2-4 hours a day.</ul>
-                      <ul className='tp-subtitle-white'>Cost Efficent</ul>
-
+                      <ul className='tp-subtitle-white'>40% more Cost Efficient than Agencies</ul>
+                      <ul className='tp-subtitle-white'>Specilized Tiktok, Reels, and Shorts Expertise</ul>
                     </li>
                     <div className="contact-hero">
                       {/*Message Us */}

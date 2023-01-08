@@ -1,105 +1,92 @@
 import Link from "next/link";
-import React, {useState} from "react";
-
-const stripe = "https://buy.stripe.com/8wMeYx6kL4f11i0eUZ"
-
-
+import React, { useState } from "react";
+import SingleServiceTwo from "../../common/single-service-2";
 
 
 const Pricing = () => {
 
-    const [showFeatures, setShowFeatures] = useState(false);
-    const handleFeatures = () => {
-      setShowFeatures(true)}
-    
-    
-      return(
- <div>
-  <div className="md-padding"></div>
-    <h3 className='tp-title-md-blue'> Subscribe to Video Hero Today.</h3> 
+  const [showFeatures, setShowFeatures] = useState(false);
+  const handleFeatures = () => {
+    setShowFeatures(true)
+  }
 
- <div className="row-center">
-  <button className="tp-btn"> Monthly </button>
-  <button className="tp-btn">Quarterly</button>
-  <button className="tp-btn">Annually</button>
-  </div>
- <div className="row-center">
+  const [showMonthly, setShowMonthly] = useState(true);
+  const handleMonthly = () => {
+    setShowMonthly(true)
+    setShowQuarterly(false)
+    setShowAnnually(false)
+  }
+
+  const [showQuarterly, setShowQuarterly] = useState(false);
+  const handleQuarterly = () => {
+    setShowQuarterly(true)
+    setShowMonthly(false)
+    setShowAnnually(false)
+  }
+
+  const [showAnnually, setShowAnnually] = useState(false);
+  const handleAnnually = () => {
+    setShowAnnually(true)
+    setShowMonthly(false)
+    setShowQuarterly(false)
+  }
+
+
+  return (
+    <div>
+      <div className="md-padding"></div>
+      <h3 className='tp-title-md-blue'> Subscribe to Video Hero Today.</h3>
+
+      <div className="row-center">
+        <button onClick={handleMonthly} className="tp-btn"> Monthly </button>
+        <button onClick={handleQuarterly} className="tp-btn">Quarterly</button>
+        <button onClick={handleAnnually} className="tp-btn">Annually</button>
+      </div>
+
+      <div className="row-center">
+      {/*Show Monthly */}
+      {showMonthly && 
+      (
+        <div className='plans-box'>
+        <div className='plans-left'>
+        <SingleServiceTwo name="Base" price="$499" offer="save 10% when you pay quarterly" stripe="https://buy.stripe.com/8wMeYx6kL4f11i0eUZ" term="monthly"></SingleServiceTwo>
+        </div>
+        <div className='plans-right'>
+         <SingleServiceTwo name="Plus" price="$849" offer="save 10% when you pay quarterly" stripe="https://buy.stripe.com/8wMeYx6kL4f11i0eUZ" term="monthly"></SingleServiceTwo>
+        </div>
+      </div>
+      )}
+    
+      {/*Show Quarterly */}
+{showQuarterly &&(
+        <div className='plans-box'>
+        <div className='plans-left'>
+          <SingleServiceTwo name="Base" price="$2499" offer="save 10% when you pay quarterly" stripe="https://buy.stripe.com/8wMeYx6kL4f11i0eUZ" term="monthly"></SingleServiceTwo>
+          </div>
+          <div className='plans-right'>
+           <SingleServiceTwo name="Plus" price="$2849" offer="save 10% when you pay quarterly" stripe="https://buy.stripe.com/8wMeYx6kL4f11i0eUZ" term="monthly"></SingleServiceTwo>
+          </div>
+      </div>
+)}
+
+      {/*Show Annually*/}
+      
+      {showAnnually && (
+     <div className='plans-box'>
+     <div className='plans-left'>
+       <SingleServiceTwo name="Base" price="$11499" offer="save 10% when you pay quarterly" stripe="https://buy.stripe.com/8wMeYx6kL4f11i0eUZ" term="monthly"></SingleServiceTwo>
+       </div>
+       <div className='plans-right'>
+        <SingleServiceTwo name="Plus" price="$11849" offer="save 10% when you pay quarterly" stripe="https://buy.stripe.com/8wMeYx6kL4f11i0eUZ" term="monthly"></SingleServiceTwo>
+       </div>
+   </div>
+      )}
  
- <div className='plans-box'>
-<div className='plans-left'>
- <div className='plans-box-card'>
+    </div>
+    </div>
 
-   <div className='plans-circle'>
-     <div className="service-padding">
-       <h2 className='tp-service-base'>Base</h2>
-       <p>699</p>
-       <p className='plans-price'>
 
-         <span className='plans-price-black'>$499</span>/month</p>
-       <p>Pay quarterly save $500</p> </div>
 
-   </div>
-
-   <li className="align-perks-right">
-     <ul className='tp-subtitle-white'>up to 2 edits/day</ul>
-     <ul className='tp-subtitle-white '>3 scripted content ideas / week </ul>
-     <ul className='tp-subtitle-white'>engagement management </ul>
-     <ul className='tp-subtitle-white'>weekly consulting</ul>
-     <button onClick={handleFeatures} className='tp-p-white'>See More Features +</button>
-     {showFeatures && <li>
-       <ul className='tp-subtitle-white'>Owners Training</ul>
-       <ul className='tp-subtitle-white'>Best Fit Content Systems</ul>
-       <ul className='tp-subtitle-white'>Account Audit</ul>
-       
-
-     </li>}
-   </li>
-   <div className='row-center'><button className='tp-btn-lg-yellow-space'>buy now </button>
-   </div>
-   <div className='row-center'><p className='tp-message-description-white'>14 Day Risk Free Guarentee</p></div>
- </div>
-
-</div>
-<div className='plans-right'>
- <div className='plans-box-card'>
-
-   <div className='plans-circle'>
-     <div className="service-padding">
-       <h2 className='tp-service-base'>Base</h2>
-       <p>699</p>
-       <p className='plans-price'>
-
-         <span className='plans-price-black'>$699</span>/month</p>
-       <p>Pay quarterly save $500</p> </div>
-
-   </div>
-
-   <li className="align-perks-right">
-     <ul className='tp-subtitle-white'>up to 4 edits/day</ul>
-     <ul className='tp-subtitle-white'>24 hour turnaround</ul>
-     <ul className='tp-subtitle-white '>5 scripted content ideas / week </ul>
-     <ul className='tp-subtitle-white'>engagement management </ul>
-     <ul className='tp-subtitle-white'>unlimited consulting</ul>
-     <button onClick={handleFeatures} className='tp-p-white'>See More Features +</button>
-     {showFeatures && <li>
-       <ul className='tp-subtitle-white'>Owners Training</ul>
-       <ul className='tp-subtitle-white'>Best Fit Content Systems</ul>
-       <ul className='tp-subtitle-white'>Account Audit</ul>
-       <ul className='tp-subtitle-white'>Discount Supplementary Accounts </ul>
-
-     </li>}
-   </li>
-   <div className='row-center'> <Link href={stripe}><button href='/google' className='tp-btn-lg-yellow-space'>Checkout</button></Link> 
-   </div>
-   <div className='row-center'><p className='tp-message-description-white'>14 Day Risk Free Guarentee</p></div>
- </div>
-</div>
-</div>
-</div>
- </div>      
-
-        
-    
-    )
+  )
 }
-        export default Pricing
+export default Pricing

@@ -104,9 +104,7 @@ const Contact = () => {
                       <ul>
                         <p>Google Display Ads Certified</p>
                       </ul>
-                      <ul>
-                        <p>500 Million views in 2022</p>
-                      </ul>
+                
                       <ul>
                         <p>1000+ Posts</p>
                       </ul>
