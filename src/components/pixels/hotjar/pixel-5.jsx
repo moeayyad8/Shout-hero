@@ -1,13 +1,11 @@
 import React from 'react';
 import Script from 'next/script';
-
 const HOTJAR_PIXEL_5 = () => 
 <>
 <React.Fragment>
     <Script id='hotjar' dangerouslySetInnerHTML={{
         __html: `
-        <!-- Hotjar Tracking Code for https://shouthero.io -->
-        <script>
+        
         (function(h,o,t,j,a,r){
             h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
             h._hjSettings={hjid:3314121,hjsv:6};
@@ -16,7 +14,7 @@ const HOTJAR_PIXEL_5 = () =>
             r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
             a.appendChild(r);
         })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-    </script>
+    
         `
     }}/>
 </React.Fragment>
