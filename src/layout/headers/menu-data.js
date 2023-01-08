@@ -28,19 +28,9 @@ const menu_data = [
     mega_menu:true,
     has_dropdown:false,
     title:'For Franchise',
-    link:'#',
+    link:'/franchise',
     sub_menus:[    
 
-    ]
-  },
-  {
-    id:3,
-    mega_menu:true,
-    has_dropdown:false,
-    title:'For Corporate',
-    link:'#',
-    sub_menus:[    
-      
     ]
   },
 

@@ -147,7 +147,8 @@ const Contact = () => {
       <div className="top-padding">
       </div>
       <Trustbar />
-      <div className="container">
+      {/*charity
+            <div className="container">
         <div className="row">
           <div className="top-padding">
           </div>
@@ -173,6 +174,10 @@ const Contact = () => {
           </div>
         </div>
       </div>
+      
+      
+      */}
+
 
       <FooterThree />
     </Wrapper>

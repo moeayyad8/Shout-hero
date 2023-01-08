@@ -13,7 +13,6 @@ import Splitter from './splitter';
 import Pricing from './pricing'
 import Link from 'next/link';
 
-const team_img = '../../../assets/img/service/shoutheroteam.png';
 
 const SmallBusiness = () => {
 
@@ -36,21 +35,8 @@ const SmallBusiness = () => {
         {/* <Process/>  */}
         <Pricing></Pricing>
         
-        {/* Team Img*/}
-        <div className='container'>
-          <div className='row '>
-            <div className='team-class'>
-              <img src={team_img} alt="" />
-            </div>
-          </div>
-        </div>
-        <div className='top-padding'></div>
-      </div>
-      
-      <Trustbar />
-      
-      {/*form*/}
-      <div className="container">
+
+        <div className="container">
         <div className='top-padding'></div>
         <div className='grey-bg'>
           <div className="row-center">
@@ -63,6 +49,13 @@ const SmallBusiness = () => {
           </div>
         </div>
       </div>
+        <div className='top-padding'></div>
+      </div>
+      
+      <Trustbar />
+      
+      {/*form*/}
+
 
       <FaqArea />
       <FooterThree />

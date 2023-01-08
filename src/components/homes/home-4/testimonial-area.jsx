@@ -3,6 +3,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper";
 import Link from 'next/link';
 
+const team_img = '../../../assets/img/service/shoutheroteam.png';
+
 const testimonial_contents = {
   title: 'Client Success Stories',
   description: '*Sob *',
@@ -46,7 +48,7 @@ const testimonial_contents = {
       desc: 'We used social media organic growth strategies to generate 750,000,000+ impressions and over 80,000 followers in just 1 year.',
       img: '/assets/img/testimonial/testi-4.2.png',
       name: 'Leslie Alexander',
-      title: 'P. Desiger of (Amazon)',
+      title: '',
       quote:'675% Growth Rate | 750+ Million impressions',
       tagline:'“They call them heroes for a reason!”'
     }
@@ -131,9 +133,19 @@ const TestimonialArea = ({ home_6, style_2 = false }) => {
             </SwiperSlide>
           })}
         </Swiper>
+      
       </div>
     </div>
-  </div></div>
+  
+  </div>
+  <div className='container'>
+          <div className='row '>
+            <div className='team-class'>
+              <img src={team_img} alt="" />
+            </div>
+          </div>
+        </div>
+  </div>
   );
 };
 

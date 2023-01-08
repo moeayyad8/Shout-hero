@@ -1,7 +1,7 @@
 import { FooterThree, HeaderThree, Wrapper } from "../layout";
 import SEO from "../components/seo";
 import Breadcrumb from "../components/common/breadcrumb/breadcrumb";
-
+import Link from "next/link";
 
 
 const Confirmation = () => {
