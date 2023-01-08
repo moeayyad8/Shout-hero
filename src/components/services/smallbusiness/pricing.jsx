@@ -73,7 +73,10 @@ const Pricing = () => {
         {showAnnually && (
           <div className='plans-box'>
             <div className='plans-left'>
+              <div className="perk-container">
               <SingleServiceTwo edits="2" scripts="3" consulting="weekly" name="Base" price="$5249" offer="You are getting the best deal!" stripe="https://buy.stripe.com/dR69Ed5gH7rdaSA8wJ" term="annually"></SingleServiceTwo>
+
+              </div>
             </div>
             <div className='plans-right'>
               <SingleServiceTwo edits='4' scripts='5' consulting='unlimited' name="Plus" price="$11849" offer="You are getting the best deal!" stripe="https://buy.stripe.com/4gweYxaB16n9aSAcN2" term="annually"></SingleServiceTwo>
