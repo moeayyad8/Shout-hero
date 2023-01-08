@@ -40,7 +40,13 @@ body {
 	color: var(--tp-text-body);
 	line-height: 26px;
 	overflow-x: hidden;
-}
+	@media screen and (max-width: 767px) {
+		font-size: 13px;
+		max-width: 408px;
+	}
+		
+	}
+
 
 a{
 	text-decoration: none;
