@@ -5,6 +5,7 @@ const HOTJAR_PIXEL_5 = () =>
 <React.Fragment>
     <script dangerouslySetInnerHTML={{
         __html: `
+        <!-- Hotjar Tracking Code for https://shouthero.io -->
         <script>
         (function(h,o,t,j,a,r){
             h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
