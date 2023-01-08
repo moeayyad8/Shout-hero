@@ -22,7 +22,7 @@ const SingleServiceTwo = ({ name, price, offer,stripe,term,edits,perk,consulting
 
       </div>
 
-      <li className="align-perks-right">
+      <li className="">
         <ul className='tp-subtitle-white'>up to {edits} edits/day</ul>
         <ul className='tp-subtitle-white'>24 hour turnaround</ul>
         <ul className='tp-subtitle-white '>{scripts} scripted content ideas / week </ul>

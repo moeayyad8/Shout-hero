@@ -79,7 +79,7 @@ const Pricing = () => {
               
             </div>
             <div className='plans-right'>
-              <SingleServiceTwo edits='4' scripts='5' consulting='unlimited ' name="Plus" price="8249" offer="You are getting the best deal!" stripe="https://buy.stripe.com/4gweYxaB16n9aSAcN2" term="Annually"></SingleServiceTwo>
+              <SingleServiceTwo edits='4' scripts='5' consulting='unlimited ' name="Plus" price="$8249" offer="You are getting the best deal!" stripe="https://buy.stripe.com/4gweYxaB16n9aSAcN2" term="Annually"></SingleServiceTwo>
             </div>
           </div>
         )}
