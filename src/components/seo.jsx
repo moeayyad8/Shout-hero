@@ -24,7 +24,7 @@ const SEO = ({ pageTitle, font }) => (
       <GOOGLE_PIXEL_4/>
       <FACEBOOK_PIXEL_1/>
       <GOOGLE_PIXEL_2/>
-      <TIKTOK_PIXEL_3/>
+    
      
     </Head>
   </>
