@@ -4,6 +4,7 @@ import useSticky from '../../hooks/use-sticky';
 import MobileMenu from './mobile-menu';
 import NavMenus from './nav-menus';
 import { useState } from 'react';
+import GOOGLE_PIXEL_4 from '../../components/pixels/google/tag-manager';
 
 const HeaderThree = () => {
   const { headerSticky } = useSticky();
@@ -16,6 +17,7 @@ const HeaderThree = () => {
 
   return (
     <>
+       <GOOGLE_PIXEL_4/>
       <header className="d-none d-lg-block">
         <div id="header-sticky" className={`tp-header-area header-transparent hasdropdown-white pl-170 
         pr-170 ${headerSticky ? 'header-sticky' : ''}`}>

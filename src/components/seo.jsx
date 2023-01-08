@@ -2,6 +2,7 @@ import Head from "next/head";
 import FACEBOOK_PIXEL_1 from "./pixels/facebook/pixel-1";
 import GOOGLE_PIXEL_2 from "./pixels/google/pixel-2";
 import TIKTOK_PIXEL_3 from "./pixels/tiktok/pixel-3";
+import GOOGLE_PIXEL_4 from "./pixels/google/tag-manager";
 
 const SEO = ({ pageTitle, font }) => (
   <>
@@ -19,7 +20,8 @@ const SEO = ({ pageTitle, font }) => (
 
       {font && <link href={font} rel="stylesheet" />}
       <link rel="icon" href="/favicon.ico" />
-
+      
+      <GOOGLE_PIXEL_4/>
       <FACEBOOK_PIXEL_1/>
       <GOOGLE_PIXEL_2/>
       <TIKTOK_PIXEL_3/>
