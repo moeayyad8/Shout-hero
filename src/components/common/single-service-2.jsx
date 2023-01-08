@@ -3,7 +3,7 @@ import React from 'react';
 import { useState } from 'react';
 
 
-const SingleServiceTwo = ({ name, price, offer,stripe,term }) => {
+const SingleServiceTwo = ({ name, price, offer,stripe,term,edits,perk,consulting,scripts }) => {
   const [showFeatures, setShowFeatures] = useState(false);
   const handleFeatures = () => {
     setShowFeatures(true)
@@ -23,17 +23,17 @@ const SingleServiceTwo = ({ name, price, offer,stripe,term }) => {
       </div>
 
       <li className="align-perks-right">
-        <ul className='tp-subtitle-white'>up to 4 edits/day</ul>
+        <ul className='tp-subtitle-white'>up to {edits} edits/day</ul>
         <ul className='tp-subtitle-white'>24 hour turnaround</ul>
-        <ul className='tp-subtitle-white '>5 scripted content ideas / week </ul>
+        <ul className='tp-subtitle-white '>{scripts} scripted content ideas / week </ul>
         <ul className='tp-subtitle-white'>engagement management </ul>
-        <ul className='tp-subtitle-white'>unlimited consulting</ul>
+        <ul className='tp-subtitle-white'>{consulting}consulting</ul>
         <button onClick={handleFeatures} className='tp-p-white'>See More Features +</button>
         {showFeatures && <li>
           <ul className='tp-subtitle-white'>Owners Training</ul>
           <ul className='tp-subtitle-white'>Best Fit Content Systems</ul>
           <ul className='tp-subtitle-white'>Account Audit</ul>
-          <ul className='tp-subtitle-white'>Discount Supplementary Accounts </ul>
+          <ul className='tp-subtitle-white'>{perk}</ul>
 
         </li>}
       </li>

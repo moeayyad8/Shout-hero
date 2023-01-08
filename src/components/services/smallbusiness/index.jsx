@@ -45,9 +45,10 @@ const SmallBusiness = () => {
         </div>
       </div>
       <TestimonialArea />
-      <div className='container'>
+      <Pricing></Pricing>
+      
         {/* <Process/>  */}
-        <Pricing></Pricing>
+        
 
 
         <div className="container">
@@ -64,7 +65,7 @@ const SmallBusiness = () => {
           </div>
         </div>
         <div className='top-padding'></div>
-      </div>
+    
 
       <Trustbar />
 
