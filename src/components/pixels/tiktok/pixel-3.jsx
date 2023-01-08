@@ -3,7 +3,7 @@ import Script from 'next/script';
 const TIKTOK_PIXEL_3 = () => 
 <>
 <React.Fragment>
-    <Script dangerouslySetInnerHTML={{
+    <Script id='tiktok' dangerouslySetInnerHTML={{
         __html: `<script>
         !function (w, d, t) {
           w.TiktokAnalyticsObject=t;

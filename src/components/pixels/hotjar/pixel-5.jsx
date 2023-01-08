@@ -4,7 +4,7 @@ import Script from 'next/script';
 const HOTJAR_PIXEL_5 = () => 
 <>
 <React.Fragment>
-    <Script dangerouslySetInnerHTML={{
+    <Script id='hotjar' dangerouslySetInnerHTML={{
         __html: `
         <!-- Hotjar Tracking Code for https://shouthero.io -->
         <script>
