@@ -12,6 +12,7 @@ import Grow from './grow';
 import Splitter from './splitter';
 import Pricing from './pricing'
 import Link from 'next/link';
+import Included from './included';
 
 
 const SmallBusiness = () => {
@@ -30,20 +31,7 @@ const SmallBusiness = () => {
       {/*White Area*/}
       <Splitter />
       <SocialExplain />
-      <div>
-        <h2 className='tp-title-md'> Included in Video Hero</h2>
-        <div className='service-container'>
-          <div className='perk-container'>
-            <h3>Personal Video Editor</h3>
-          </div>
-          <div className='perk-container'>
-            <h3>Personal Community Manager </h3>
-          </div>
-          <div className='perk-container'>
-            <h3>Personal Creative Director </h3>
-          </div>
-        </div>
-      </div>
+      <Included/>
       <TestimonialArea />
       <Pricing></Pricing>
       

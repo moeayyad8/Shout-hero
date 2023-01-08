@@ -51,7 +51,7 @@ const SocialExplain = () => {
                 subtitle={brand} />
               <FeatureItem title={'Distribution'} color={'3'}
                 subtitle={awareness} />
-              <FeatureItem title={'Data Analysis'} color={'4'}
+              <FeatureItem title={'Measurement'} color={'4'}
                 subtitle={conversion} />
 
             </div>

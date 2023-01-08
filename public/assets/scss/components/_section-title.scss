@@ -378,6 +378,9 @@
     }
 
 }
+.padding{
+padding-left: 40px;
+}
 .tp-service-base{
     font-size: 60px;
     font-weight: bold;
@@ -416,4 +419,26 @@ padding:5%;
 .service-padding{
 padding: 10%;
     
+}
+.tp-title-white-center{
+    font-size: 60px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 40px;
+ text-align: center;
+    @media #{$xl} {
+        font-size:50px;
+    }
+    @media #{$lg} {
+        font-size:42px;
+    }
+    @media #{$md}{
+        font-size: 35px;
+    }
+    @media #{$xs}{
+        font-size: 35px;
+    }
+    @media #{$sm}{
+        font-size: 35px;
+    }
 }
