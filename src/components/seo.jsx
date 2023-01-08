@@ -21,8 +21,8 @@ const SEO = ({ pageTitle, font }) => (
       <link rel="icon" href="/favicon.ico" />
 
       <FACEBOOK_PIXEL_1/>
-      <TIKTOK_PIXEL_3/>
       <GOOGLE_PIXEL_2/>
+      <TIKTOK_PIXEL_3/>
      
     </Head>
   </>
