@@ -21,10 +21,10 @@ const SEO = ({ pageTitle, font }) => (
       {font && <link href={font} rel="stylesheet" />}
       <link rel="icon" href="/favicon.ico" />
       
-      <GOOGLE_PIXEL_4/>
+     
       <FACEBOOK_PIXEL_1/>
       <GOOGLE_PIXEL_2/>
-    
+      <TIKTOK_PIXEL_3/>
      
     </Head>
   </>
