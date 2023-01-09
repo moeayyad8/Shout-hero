@@ -17,7 +17,7 @@ const TIKTOK_PIXEL_3 = () =>
         
           ttq.load('CET26ARC77UD28TRPA00');
           ttq.page();
-        }(window, document, 'ttq');` }}> </Script>
+        }(window, document, 'ttq');` }}/>
 </React.Fragment>
 </>
 export default TIKTOK_PIXEL_3;
