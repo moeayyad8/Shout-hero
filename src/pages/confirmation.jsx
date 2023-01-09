@@ -2,6 +2,7 @@ import { FooterThree, HeaderThree, Wrapper } from "../layout";
 import SEO from "../components/seo";
 import Breadcrumb from "../components/common/breadcrumb/breadcrumb";
 import Link from "next/link";
+import TIKTOK_PIXEL_3 from "../components/pixels/tiktok/pixel-3";
 
 
 const Confirmation = () => {
@@ -11,6 +12,7 @@ const Confirmation = () => {
 
             <HeaderThree />
             <Breadcrumb />
+            <TIKTOK_PIXEL_3/>
             <div className="top-padding"></div><div className="top-padding"></div><div className="top-padding"></div>
             <div className="top-padding"></div><div className="top-padding"></div><div className="top-padding"></div>
             <h1 className="tp-title-md"> Welcome to the team!</h1>
