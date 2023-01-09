@@ -20,7 +20,7 @@ const Confirmation = () => {
             <Link href="/">
                 <div className="row-center"><button href='/#' className="tp-btn">Return Home</button></div>
             </Link>
-            <div className="row-center"><button href='/#' className="tp-btn">Return Home</button></div>
+           
             <div className="top-padding"> </div><div className="top-padding"></div><div className="top-padding"></div>
             <div className="top-padding"> </div><div className="top-padding"></div><div className="top-padding"></div>
 
