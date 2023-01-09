@@ -70,6 +70,7 @@ const Contact = () => {
                     <h3>Chat with us.</h3>
                     <p>Schedule a time to speak with a hero.</p>
                     <button onClick={handleLiveChatClick} className="tp-btn-yellow">LIVE CHAT</button>
+                    <h4> Scroll down to submit a form. </h4>
                   </div>
                   {/*Call Us */}
                   <div className="right">
