@@ -4,9 +4,7 @@ import React from 'react';
 const TIKTOK_PIXEL_3 = () => 
 <>
 <React.Fragment>
-    <Script id='tiktok' dangerouslySetInnerHTML={{
-        __html: `
-        !function (w, d, t) {
+    <Script id='tiktok' dangerouslySetInnerHTML={{__html:`!function (w, d, t) {
           w.TiktokAnalyticsObject=t;
           var ttq=w[t]=w[t]||[];
           ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};
@@ -19,11 +17,7 @@ const TIKTOK_PIXEL_3 = () =>
         
           ttq.load('CET26ARC77UD28TRPA00');
           ttq.page();
-        }(window, document, 'ttq');
-        
-        `
-    }}/>
- 
+        }(window, document, 'ttq');` }}> </Script>
 </React.Fragment>
 </>
 export default TIKTOK_PIXEL_3;

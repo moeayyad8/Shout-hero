@@ -73,10 +73,11 @@ const Contact = () => {
                   </div>
                   {/*Call Us */}
                   <div className="right">
-                    <img src={callus_img} />
+                    {/*       <img src={callus_img} />
                     <h3>Get a call back.</h3>
                     <p>Schedule a time to speak with a hero.</p>
-                    <button onClick={handleCallClick} className="tp-btn-yellow">CALL NOW</button>
+                    <button onClick={handleCallClick} className="tp-btn-yellow">CALL NOW</button>*/}
+             
                   </div>
 
                 </div>

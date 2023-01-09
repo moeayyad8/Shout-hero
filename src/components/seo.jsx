@@ -4,6 +4,7 @@ import GOOGLE_PIXEL_2 from "./pixels/google/pixel-2";
 import TIKTOK_PIXEL_3 from "./pixels/tiktok/pixel-3";
 
 import HOTJAR_PIXEL_5 from "./pixels/hotjar/pixel-5";
+import React from "react";
 
 const SEO = ({ pageTitle, font }) => (
   <>
@@ -21,12 +22,13 @@ const SEO = ({ pageTitle, font }) => (
 
       {font && <link href={font} rel="stylesheet" />}
       <link rel="icon" href="/favicon.ico" />
-      
+      <React.Fragment>
       <HOTJAR_PIXEL_5/>
       <FACEBOOK_PIXEL_1/>
       <GOOGLE_PIXEL_2/>
       <TIKTOK_PIXEL_3/>
-     
+      </React.Fragment>
+ 
     </Head>
   </>
 );

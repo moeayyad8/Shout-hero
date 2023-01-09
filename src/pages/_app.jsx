@@ -7,6 +7,7 @@ if (typeof window !== "undefined") {
   require("bootstrap/dist/js/bootstrap");
 }
 import '../styles/index.scss';
+import SEO from "../components/seo";
 
 {/* Google tag (gtag.js) 
 
@@ -26,6 +27,7 @@ function MyApp({ Component, pageProps }) {
   return (
       <Provider store={store}>
         <Component {...pageProps} />
+  
         <ToastContainer />
       </Provider>
   )
