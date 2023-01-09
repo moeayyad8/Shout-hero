@@ -12,7 +12,7 @@ import Breadcrumb from '../../common/breadcrumb/breadcrumb';
 const title = <>Super Powered <br/> Franchise Marketing</>
 const subtitle="Advantages"
 const objectives="Objectives"
-const desc = "ssss"
+const desc = ""
 const hero_img = "/../assets/img/logo/worldpin.png"
 
 
