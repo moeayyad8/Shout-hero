@@ -24,9 +24,7 @@ const LocalLaunch = () => {
     <HubspotContactForm/>
       </div>
     </div>
-    <h2 className='tp-title-md'>Schedule Call</h2>
 
-    <ScheduleHubspot/>
     <FooterThree/>
   </Wrapper>
   );

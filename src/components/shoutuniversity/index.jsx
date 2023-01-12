@@ -16,6 +16,20 @@ const Products = () => {
     <Wrapper>
       <HeaderThree />
       <Breadcrumb title={'Shout University'} />
+        {/*Hero */}
+      {/*Introducing Shout University*/}
+       {/* Empowering Independent Social Media Managers */}
+        
+        {/* Action Bar Free Course, Get Certified, Become a Member */}
+         
+         {/*About Shout University */}
+         {/*Start managing social media accounts without performance anxiety */}
+
+         {/* Inside Shout University */}
+
+        {/* Become a member */}
+        {/* Get access to meetings with our team */}
+        {/*  */}
       <div className='container'>
         <div className='row'>
         <div className="top-padding"></div>
@@ -23,10 +37,7 @@ const Products = () => {
           <p> We offer our in-house research, collaborabations, and consulting sessions into easy to access courses and e-books to spread the knowledge to people</p>
           <hr />
           <div className="plans-table">
-          <div> <h2>Instant Access</h2></div> 
-          <div> <h2>Instant Access</h2></div>
-          <div> <h2>Instant Access</h2></div>
-       
+
           </div>
      
         </div>

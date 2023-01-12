@@ -38,7 +38,7 @@ const HeroSmall = () => {
                       {/*Call Us */}
                       <div className="right">
                         <Link href={local}>
-                        <button className="tp-btn-lg-yellow">Schedule Call</button>
+                        <button className="tp-btn-lg-yellow">Contact Us</button>
                         </Link>
                       </div>
                     </div>

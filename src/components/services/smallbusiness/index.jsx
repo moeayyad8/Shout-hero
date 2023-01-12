@@ -4,7 +4,7 @@ import { animationCreate } from '../../../utils/utils';
 import SocialPerks from './social-perks';
 import Trustbar from '../../trustbar';
 import SocialExplain from './social-explain';
-import ContentForm from '../../forms/content-form';
+import HubspotContactForm from '../../forms/content-form';
 import FaqArea from '../../faq/faq-area';
 import TestimonialArea from '../../homes/home-4/testimonial-area';
 import HeroSmall from './hero-small';
@@ -27,6 +27,8 @@ const SmallBusiness = () => {
     <Wrapper>
       <HeaderThree />
       <HeroSmall />
+      <div className='row-center'>      <HubspotContactForm/>
+</div>
       <Grow />
       {/*White Area*/}
       <Splitter />
