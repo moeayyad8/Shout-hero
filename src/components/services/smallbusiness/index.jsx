@@ -28,7 +28,8 @@ const SmallBusiness = () => {
       <HeaderThree />
       <HeroSmall />
       <div className='row-center'>      <HubspotContactForm/>
-</div>
+      </div>
+      <Pricing></Pricing>
       <Grow />
       {/*White Area*/}
       <Splitter />
