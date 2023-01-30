@@ -1,7 +1,7 @@
 import React from 'react';
 import Breadcrumb from '../components/common/breadcrumb/breadcrumb';
 import SEO from '../components/seo';
-import { HeaderThree } from '../layout';
+import { HeaderThree, Wrapper, FooterThree } from '../layout';
 
 
 const ErrorPage = () => {
