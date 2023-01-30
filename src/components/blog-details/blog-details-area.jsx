@@ -1,7 +1,9 @@
 import Link from 'next/link';
 import React from 'react';
 import BlogSidebar from '../blog/blog-sidebar';
+import Cta from '../common/cta/cta';
 import BlogDetailsForm from '../forms/blog-details-form';
+import TestimonialArea from '../homes/home-4/testimonial-area';
 
 const post_comments = [
   {
@@ -26,27 +28,36 @@ const post_comments = [
 ]
 
 const BlogDetailsArea = ({ blog }) => {
-  const { img, author, date, comment, title, real_blogp1, real_blogp2, real_blogp3, real_blogp4,real_blogp5,real_blogp6 } = blog || {};
+  const { img, author, date, comment, title,short_desc, real_blogp1, real_blogp2, real_blogp3, real_blogp4,real_blogp5,real_blogp6, ending } = blog || {};
   return (
     <>
-      <div className="postbox__area pt-120 pb-120">
+
+
+      <div className="postbox__area pb-120">
+       
         <div className="container">
           <div className="row">
             <div className="col-xxl-8 col-xl-8 col-lg-8 col-12">
               <div className="postbox__wrapper">
                 <article className="postbox__item format-image transition-3">
                   <div className="postbox__content">
+                  <h1 className='tp-title-md-left'>Shout Hero Blog</h1>
+           
                     <p><img className="w-100" src={img} alt="" /></p>
+                    <h3 className='tp-subtitle'>Small Business Resources </h3>
+           
                     <div className="postbox__meta">
                       <span><a href="#"><i className="fal fa-user-circle"></i>{author}</a></span>
                       <span><a href="#"><i className="fal fa-clock"></i>{date}</a></span>
                    
-                    
+
                     </div>
-                    <h3 className="postbox__title">
+                   
+                    <h2 className="postbox__title">
                       {title}
-                    </h3>
+                    </h2>
                     <div className="postbox__text">
+                      <p>{short_desc}</p>
                       <p> {real_blogp1}
                       </p>
                       <p>{real_blogp2}</p>
@@ -55,6 +66,7 @@ const BlogDetailsArea = ({ blog }) => {
                       <p>{real_blogp4}</p>
                       <p>{real_blogp5}</p>
                       <p>{real_blogp6}</p>
+                      <p>{ending}</p>
                     </div>
 
                     <div className="postbox__thumb2">
@@ -109,17 +121,15 @@ const BlogDetailsArea = ({ blog }) => {
                    
                   </ul>
                 </div>
-                <div className="postbox__comment-form">
-                  <h3 className="postbox__comment-form-title">Leave a Reply</h3>
-                  {/* details form start */}
-                  <BlogDetailsForm />
-                  {/* details form end */}
-                </div>
+            
               </div>
             </div>
             <div className="col-xxl-4 col-xl-4 col-lg-4">
             
             </div>
+            <Cta/>
+            <div className='top-padding'></div>
+            <TestimonialArea/>
           </div>
         </div>
       </div>

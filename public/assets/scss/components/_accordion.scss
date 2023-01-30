@@ -75,7 +75,36 @@
         }
     }
 }
+.features-container{
+    width: 100%;
+    background-color: #a4bafd;
+    border-radius: 20px;
+    display: inline-table;
+    .feature-box1{
+        float:right;
+        width:50%;
+    }
+    .feature-box2{
+        float: left;
+        margin-top: 10%;
+        width:50%;
+        align-items: flex-end;
 
+    }
+}
+
+.feature-box{
+   
+    height: 50%;
+    margin: 1%;
+    display: inline-table;
+    text-align: center;
+    border-bottom: 1px solid #F5F5F5;
+    color: #F5F5F5;
+    &:last-child{
+        border-bottom: none;
+    }
+}
 .faq-accordio-border {
     & .accordion-items {
         background-color: var(--tp-common-white);
@@ -83,4 +112,10 @@
         border-radius: 10px;
     }
 
+}
+.tp-subtitle-white-blank {
+    color: var(--tp-common-white);
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1.5;
 }

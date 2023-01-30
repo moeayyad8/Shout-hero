@@ -10,10 +10,10 @@ const CtaTwo = () => {
           <div className="col-xl-7 col-lg-7 col-md-12 ">
             <div className="tp-news-sub-wrapper pr-50">
               <div className="tp-news-letter-section-box">
-                <h5 className="tp-subtitle subtitle-secondary-color wow tpfadeUp" data-wow-duration=".3s" data-wow-delay=".6s">Franchisor Solutions</h5>
-                <h2 className="tp-title-sm tp-title-sm tp-white-text pb-25 wow tpfadeUp" data-wow-duration=".5s" data-wow-delay=".8s"> Get your local franchises 
+                <h4 className="tp-subtitle subtitle-secondary-color wow tpfadeUp" data-wow-duration=".3s" data-wow-delay=".6s">Franchisor Solutions</h4>
+                <h1 className="tp-title-sm tp-title-sm tp-white-text pb-25 wow tpfadeUp" data-wow-duration=".5s" data-wow-delay=".8s"> Get your local franchises 
                   expert marketing help.
-                </h2>
+                </h1>
                 <p className="text-white"> With an audience at local levels around the country, we can help you create a huge audience</p>
               </div>
               <div className="tp-news-button wow tpfadeUp" data-wow-duration=".7s" data-wow-delay="1s">

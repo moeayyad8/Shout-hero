@@ -39,7 +39,7 @@ const HeroArea = () => {
             <div className="col-xl-6 col-lg-7 col-md-12">
               <div className="tp-hero-section-box pt-140 pb-200">
                 <div className='wow tpfadeUp' data-wow-duration=".3s" data-wow-delay=".6s">
-                  <h3 className="ct-hero-title text-white">{title}</h3>
+                  <h1 className="ct-hero-title text-white">{title}</h1>
                 </div>
                 <p className="wow tpfadeUp" data-wow-duration=".5s" data-wow-delay=".8s">{text}</p>
                 <div className="tp-hero-three-button-box d-flex align-items-center wow tpfadeUp" data-wow-duration=".7s" data-wow-delay="1s">

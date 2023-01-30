@@ -27,7 +27,8 @@ const SmallBusiness = () => {
     <Wrapper>
       <HeaderThree />
       <HeroSmall />
-      <div className='row-center'>      <HubspotContactForm/>
+      <div className='row-center'>
+        <HubspotContactForm/>
       </div>
       <Pricing></Pricing>
       <Grow />
@@ -39,9 +40,6 @@ const SmallBusiness = () => {
       <Pricing></Pricing>
       
         {/* <Process/>  */}
-        
-
-
         <div className="container">
           <div className='top-padding'></div>
           <div className='grey-bg'>
@@ -56,8 +54,6 @@ const SmallBusiness = () => {
           </div>
         </div>
         <div className='top-padding'></div>
-    
-
       <Trustbar />
 
       {/*form*/}

@@ -5,13 +5,15 @@ const ServicesArea = () => {
   return (
     <>
       <div className="ac-chose-area mb-130">
+        <h2 className='tp-title-md'>Why work with Shout Hero?</h2>
+        <div className='md-padding'></div>
         <div className="container ac-chose-bg">
           <div className="row">
-            <ChoseItem duration='.3s' delay='.5s' icon='flaticon-group' title={<>Build Local <br /> Communities</>}
-              text={'Unachievable from corperate marketing'} />
-            <ChoseItem duration='.5s' delay='.7s' item_num={'tpchosebox-three'} color="fea-color-5" icon='fas fa-star' title={<>Low <br /> Maitenance</>} text={<>Built for busy <br /> business owners</>} />
-            <ChoseItem duration='.7s' delay='.9s' item_num={'tpchosebox-two'} color="fea-color-4" icon='flaticon-web' title={<>Global <br /> Reach </>} text={'Potential to reach global audiences'} />
-            <ChoseItem duration='.9s' delay='1s' icon='fas fa-star' title={<>1 on 1 <br /> Analysis</>}
+            <ChoseItem duration='.3s' delay='.5s' icon='flaticon-group' title={<>Target Local <br /> Communities</>}
+              text={'Build deep roots and community staples'} />
+            <ChoseItem duration='.5s' delay='.7s' item_num={'tpchosebox-three'} color="fea-color-5" icon='fas fa-star' title={<>Low <br /> Maitenance</>} text={<>Built for busy <br /> franchisors</>} />
+            <ChoseItem duration='.7s' delay='.9s' item_num={'tpchosebox-two'} color="fea-color-4" icon='flaticon-web' title={<>Modern<br />Approaches</>} text={'Deliver the latest strategies locally '} />
+            <ChoseItem duration='.9s' delay='1s' icon='fas fa-star' title={<>1 on 1 <br /> Help</>}
               text={'Personalized help for each franchise'} />
           </div>
         </div>

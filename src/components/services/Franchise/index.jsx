@@ -8,12 +8,17 @@ import Trustbar from '../../trustbar';
 import ContentForm from '../../forms/content-form';
 import FaqArea from '../../faq/faq-area';
 import Breadcrumb from '../../common/breadcrumb/breadcrumb';
+import HeroSmall from '../smallbusiness/hero-small';
+import HeroFsmall from './hero-small';
+import ContactUs from '../../forms/contact-form';
+import Growf from '../../services/franchise/growf.jsx';
+import Delivery from './delivery';
 
-const title = <>Super Powered <br/> Franchise Marketing</>
+const title = <>Global Brands, Local Reach</>
 const subtitle="Advantages"
 const objectives="Objectives"
 const desc = ""
-const hero_img = "/../assets/img/logo/worldpin.png"
+const hero_img = "/../assets/img/logo/yourheros.png"
 
 
 
@@ -46,57 +51,40 @@ const Franchise = () => {
   return (
     <Wrapper>
     <HeaderThree/>
-    <Breadcrumb></Breadcrumb>
+    <HeroFsmall/>
    
-      <div className="grey-bg pt-10 pb-10">
-        <div className="container">
-          <div className="row">
-            <div className="grey-bg pt-10 pb-10">
-              <div className="container tp-services-item">
-                <div className="service-hero">
-                  <div className="service-hero-text">
-                    <div className='top-padding'></div>
-                    <h1 className="tp-title">{title}</h1>
-                    <h2 className="tp-subtitle">{objectives}</h2>
-                    {/* tags */}
-                    <div className="extra-padding">
-                      <a className="tp-sv-tag">Content</a>
-                      <a className="tp-sv-tag-purple">Production</a>
-                      <a className="tp-sv-tag-yellow">Clips</a>
-                      <a className="tp-sv-tag-green">Editing</a>
-                    </div>
-
-                    <p>{desc}</p>
-                    <div className="extra-padding">
-                      <button className="tp-btn"> Get started</button>
-                    </div>
-
-                  </div>
-
-                  <div className="service-hero-50">
-                    <img className="service-hero-image" src={hero_img} alt="" />
-                  </div>
-                </div>
-              </div>
-
-
-            </div>
-          </div>
-        </div>
-      </div>
-      <Trustbar />
-      <div className="extra-padding">
+    <div className='top-padding'></div>
+    <div className='container'>
+    <div className='row'>
+    <ContactUs/>
+    </div>
+    </div>
+    <div className='top-padding'></div>
+    <FeatureArea/>
+    <div className="container">
+    <h1> The new way to approach social media marketing 
+      one content source 
+      unlimited platforms
+    </h1>
+   <div className='md-padding'></div>
          <ServicesArea/>
+    </div>
+    <Growf></Growf>
+<Delivery></Delivery>
+    <div className='container'>
+      <div className='row'>
+        <h3> How this helps corperate.</h3>
+        <li>
+          <ul> Builds diversified marketing assets on new platforms for corperate. </ul>
+          <ul> Align corperate marketing goals with local reach.</ul>
+          <ul> Releive marketing pressure from independent franchises.</ul>
+          <ul> Succeed in new markets to build national brands. </ul>
+        </li>
       </div>
-     <FeatureArea/>
-      <h2 className="tp-title-md-blue">Submit a Form</h2>
-      <div className="container">
-        <div className='bg-form'>
-          <ContentForm className="ContentForm" />
-
-        </div>
-      </div>
-      <h2 className="tp-title-md">Frequently Asked Questions</h2>
+    </div>
+      <Trustbar />
+      <div className='md-padding'></div>
+    <h3 className='tp-title-md'>Answer your franchisors questions.</h3>
       <FaqArea />
   </Wrapper>
   );

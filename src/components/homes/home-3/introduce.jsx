@@ -11,7 +11,8 @@ const Introduce = () => {
       <div className='container'>
         <div className='row'>
           <div className='top-padding'></div>
-          <div className='row-center'> <h1 className='tp-title-md'>Your #1 Short Form Media Partner</h1>
+          <div className='row-center'>
+          <h2 className='tp-title-md'>Your #1 Short Form Media Partner</h2>
           </div>
           <div className='bg-yellow-perks'></div>
 
