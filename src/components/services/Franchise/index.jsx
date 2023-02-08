@@ -1,21 +1,11 @@
 import React, { useEffect } from 'react';
 import { FooterFive, FooterThree, HeaderThree, Wrapper } from '../../../layout';
 import { animationCreate } from '../../../utils/utils';
-import FeatureArea from '../../about/feature-area';
-import ServicesArea from '../../about/services-area';
-import NewsLetter from '../../homes/home-4/news-letter';
 import Trustbar from '../../trustbar';
 import ContentForm from '../../forms/content-form';
 import FaqArea from '../../faq/faq-area';
-import Breadcrumb from '../../common/breadcrumb/breadcrumb';
-import HeroSmall from '../smallbusiness/hero-small';
 import HeroFsmall from './hero-small';
-import ContactUs from '../../forms/contact-form';
-import Growf from '../../services/franchise/growf.jsx';
-import Delivery from './delivery';
 
-const title = <>Global Brands, Local Reach</>
-const subtitle = "Advantages"
 const piechart = "../../../assets/img/service/piechart.png"
 const smallshop = "../../../assets/img/service/smallshop.png"
 const herophone = '/assets/img/service/herophone.png'
