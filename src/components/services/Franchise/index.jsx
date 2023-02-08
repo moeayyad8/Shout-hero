@@ -223,7 +223,7 @@ const Franchise = () => {
         </div>
       </div>
 
-
+{/*
       <div className='grey-bg'>
         <div className='container'>
           <div className='top-padding'></div>
@@ -254,9 +254,11 @@ const Franchise = () => {
 
         </div>
       </div>
+*/}
 
 
-      <div className='blue-bg'>
+{/*
+ <div className='blue-bg'>
         <div className='top-padding'></div>
         <h3 className='tp-title-md-white'>Reach your team at any time.</h3>
         <p className='tp-font-p-white'> We keep in contact through your preferred contact method </p>
@@ -273,24 +275,12 @@ const Franchise = () => {
             </div>
           </div>
         </div>
-
-
       </div>
-
-
-
-
-      <div className='top-padding'></div>
-      <div className='container'>
-        <div className='row'>
-          <h2></h2>
-        </div>
-
-      </div>
-      <Trustbar />
-      <div className='md-padding'></div>
+   <Trustbar />
+*/}
+     
+   
       <FaqArea />
-      <h5>Check Out Our Blog!</h5>
       <FooterThree />
     </Wrapper>
   );
