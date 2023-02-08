@@ -20,7 +20,7 @@ const ContactUs = () => {
     }, []);
 
     return (
-        <div className="bg-form">
+        <div className="bg-form-yellow">
           <h2 className="tp-title-sm-left"> Request more information </h2>
           <p>Need help deciding on our services? Use the form, chat, or get a call back to talk to a Shout Hero now</p>
             <div id="hubspotForm"></div>
